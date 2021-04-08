@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+{% include head.html %}
+
+<!-- hack iOS CSS :active style -->
+<body ontouchstart="">
+
+    {% include nav.html %}
+    {% include search.html %}
+
+    {{ content }}
+
+    {% include footer.html %}
+</body>
+
+</html>

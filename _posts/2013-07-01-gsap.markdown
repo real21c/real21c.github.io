@@ -1,0 +1,19 @@
+---
+layout: post
+title: GSAP의 놀라운(!) 성능
+date: 2013-07-01 23:12:57 +0900
+description: GSAP의 놀라운(!) 성능 # Add post description (optional)
+img: /report/tweenlite.jpg # Add image post (optional)
+fig-caption: # Add figcaption (optional)
+tags: [개발, HTML5, GSAP, JAVASCRIPT]
+---
+
+TweenLite 는 GSAP(Green Sock Animation Platform ) 이다. 자바스크립트 라이브러리중에서 가장 많이 사용되는 jQuery보다 무려 20배(!) 빠르다는 TweenLite 광고는 진짜일까? 지금까지 여러 가지 종류의 자바스크립트 라이브러리를 사용해봤지만, 내 눈을 의심하지 않을 수 없었다.
+
+올해 SenchaTouch 세미나에서는 jQuery Mobile을 콕 집어 비교하면서 용량도 가볍고, 성능이 좋다는 소개가 있었다.  **1KB** 용량은 넘어갈 수도 있는 작은 크기지만, 웹에서 네트워크 상태와 동시에 발생하는 트래픽이 누적 시 일어나는 파장효과는 무슨 일이 나타날지 모르기 때문에 신경이 쓰이는 것도 사실이다.
+
+벤치마킹 결과라는 게 내가 우수하다는것을 입증하기 위해서는 데이터를 통해서 무엇이든 결과물을 표현할 수 있기 때문에, 결과를 너무 맹신할 수는 없는데, GSAP은 TweenLite의 자신감 넘치는 광고와 함께 샘플 테스트도 공개하였다.  [테스트URL](http://www.greensock.com/js/speed.html "js속도 테스트")
+
+스트레스 테스트를 실행하면 프레임비율 차이가 확실히 GSAP이 우수하다. 스트레스 가중치에 비례하여 2~3배 많게는 20배를 훨씬 초과할 만큼 GSAP이 우수한 것을 확실하게 보여준다. 물론 테스트 환경(브라우저, PC 등..)이 차이가 있을 것이기 때문에, 아무래도 20배라는 것은 수치는 가장 평균적인 수치가 아닐까 싶다.
+
+더 살펴봐야 파악이 될 수 있겠지만, jQuery의 animate() 함수보다 다양한 종류를 구현할 수 있는 API가 지원되고, 호환도 된다고 하고, 앞으로 부드러운 움직임과 애니메이션의 구현을 위해서는 HTML5 + GSAP 의 조합도 나쁘지 않겠다는 생각이다.
