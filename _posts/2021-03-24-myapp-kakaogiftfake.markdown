@@ -62,4 +62,3 @@ https://adfit.kakao.com/web/html/use_kakao.html
 앱의 특성상 발렌타인데이, 화이트데이 처럼 기념일 특수를 톡톡히 봤다. 어떻게 하면 앱 사용자를 더 높일까 고민하면서도, 따로 홍보하지 않는데 저절로 홍보되고 늘어나는 카운트가 감사할뿐.. 덕분에 수익은 만족스럽다. 지금까지 카카오 애드핏 적용은 한달 정도 되었는데 전체적으로 깔끔하고 괜찮지만, 모바일 관리자 불가능, 유형별 보고서 통계 확인 불가능, 멀티 계정 부관리자가 안된다는 것은 아쉽다. 기존에 다음 애드핏에서 카카오 애드핏으로 이름만 바뀌는게 아닌, 카카오에 걸맞는 멋진 광고플랫폼이 되어주기를 바래본다.
 
 ![kakao-adfit3.png](/img/in-post/kakao-adfit3.png)
-https://play.google.com/store/apps/details?id=dongmani.kakaogiftfake
