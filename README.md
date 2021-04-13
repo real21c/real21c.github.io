@@ -1,11 +1,6 @@
 [Dongmin's Blog](https://real21c.github.io)
 ================================
 
-> I never expected this becomes popular.
-
-![](http://huangxuan.me/img/blog-desktop.jpg)
-
-
 
 License
 -------
