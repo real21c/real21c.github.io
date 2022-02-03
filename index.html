@@ -22,8 +22,8 @@ description: "「PROGRAMMING, TRAIL RUNNING」"
             {% endif %}
         </div>
     </a>
-    <p class="post-meta">
-        Posted by {% if post.author %}{{ post.author }}{% else %}{{ site.author }}{% endif %} on {{ post.date | date: "%B %-d, %Y" }}
+    <p class="post-meta" style="margin:0 0;">
+        {{ post.date | date: "%F, %R" }} | {% if post.author %}{{ post.author }}{% else %}{{ site.author }}{% endif %}
     </p>
 </div>
 <hr>
