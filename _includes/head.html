@@ -60,7 +60,13 @@
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
 
+{% if page.url == "/" %}
+{% elsif page.url == "/about/" %}
+{% elsif page.url == "/dev/" %}
+{% elsif page.url == "/summary/" %}
+{% elsif page.url == "/trail/" %}
+{% else %}
     <!-- ga & ba script hoook -->
 	<script data-ad-client="ca-pub-5063679303194237" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-    <script></script>
+{% endif %}
 </head>
