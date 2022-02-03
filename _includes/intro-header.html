@@ -43,7 +43,7 @@
                     <h1>{{ page.title }}</h1>
                     {% comment %} always create a h2 for keeping the margin {% endcomment %}
                     <h2 class="subheading">{{ page.subtitle }}</h2>
-                    <span class="meta">Posted by {% if page.author %}{{ page.author }}{% else %}{{ site.title }}{% endif %} on {{ page.date | date: "%B %-d, %Y" }}</span>
+                    <span class="meta">작성자: {% if page.author %}{{ page.author }}{% else %}{{ site.title }}{% endif %} on {{ page.date | date: "%B %-d, %Y" }}</span>
                 </div>
             </div>
         </div>
@@ -82,7 +82,7 @@
                     {% comment %} always create a h2 for keeping the margin {% endcomment %}
                     <h2 class="subheading">{{ page.subtitle }}</h2>
                     <span class="meta">Posted by {% if page.author %}{{ page.author }}{% else %}{{ site.title }}{% endif %}
-                        on {{ page.date | date: "%B %-d, %Y" }}</span>
+                        on {{ page.date | date: "%F(%a)" }}</span>
                 </div>
             </div>
         </div>
@@ -100,7 +100,15 @@
         {% else %}
         <div class="site-heading">
         {% endif %}
-          <h2>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</h2>
+          <h2>{% if page.title == "Trail" %}
+			  트레일러닝
+			  {% elsif page.title == "Dev" %}
+			  개발일지
+			  {% elsif page.title == "Summary" %}
+			  결산
+			  {% else %}
+			  {{ page.title }}
+			  {% endif %}</h2>
           <span class="subheading">{{ page.description }}</span>
         </div>
       </div>
