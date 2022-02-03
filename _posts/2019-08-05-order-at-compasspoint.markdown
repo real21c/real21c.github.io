@@ -1,21 +1,19 @@
 ---
 layout: post
-title: 영국에서 해외직구 과정 공유(배송을 안해줌ㅠ)
+title: 🔎 영국에서 해외직구 과정 공유(Compass Point)
 date: 2019-08-11 03:13:01 +0900
-description: 영국에서 해외직구 과정 공유 (배송을 안해줌ㅠ) # Add post description (optional)
+description: 영국에서 해외직구 과정 공유 (Compass Point) # Add post description (optional)
 img: report/order-at-compasspoint2.jpg # Add image post (optional)
 fig-caption: # Add figcaption (optional)
-tags: [직구, 영국직구, COMPASSPOINT, 콤패스포인트]
+tags: [리뷰]
 ---
 
-
-영국에 위치하는 [Compass Point](https://compasspoint-online.co.uk) 라는 곳에서 직구를 하게되었다.
+## Compass Point 직구
+- 영국에 위치하는 [Compass Point](https://compasspoint-online.co.uk) 라는 곳에서 직구를 하게되었다.
 결론부터 말하면 최악이었고, 과정을 공유하고자 하니, 혹시 주문하고자 한다면 참고하기 바람.
+- 온라인에서 물건을 살 때 가장 고민 되는 것은 얼만큼 빨리 오는지, 상태가 양호한지, 특히 해외직구라면 더더욱 신경쓰이게 마련이다.
 
-온라인에서 물건을 살 때 가장 고민 되는 것은
-얼만큼 빨리 오는지, 상태가 양호한지,
-특히 해외직구라면 더더욱 신경쓰이게 마련이다.
-
+## 진행과정
 **2019-07-09(화) 17:41**  
 compasspoint-online.co.uk 회원가입
 
@@ -63,20 +61,13 @@ Inov8 Men's OROC 280 V2 주문/결제완료
 
 3) 페이스북 메세지도 잘 읽지도 않고, 읽어도 답변을 잘 안함.
 
-주문한 물건은 오지도 않았는데, 카드 결제일에 해당 금액이 빠져나가게 되었다ㅠ
+- 주문한 물건은 오지도 않았는데, 카드 결제일에 해당 금액이 빠져나가게 되었다ㅠ
+- 그래도 카드환불절차가 잘 진행되서, 카드사로부터 해당 금액을 환불완료
+- 환불비용은 최초 금액하고는 상이했는데 구매시점, 환불시점 환율이 다를뿐더러, 수수료까지 물어야해서, 
+시간을 쏟은 비용까지 합하면 손해, 이런 경우도 있구나 경험을 한 것으로 끝.
+- 영국의 CS 상담처리방식이 이렇게 수준이 낮은 것인지, 내가 연락하지 않고 계속 기다렸다면 과연 어떤 결론이 나왔을지 [Compass Point](https://compasspoint-online.co.uk) 정말 비추!!!
 
-그래도 카드환불절차가 잘 진행되서, 카드사로부터 해당 금액을 환불완료
+- 언젠가 사기를 당한다면, 사기꾼을 내 손으로 잡는 그날까지 직구는 계속됩니다!! **
 
-환불비용은 최초 금액하고는 상이했는데 구매시점, 환불시점 환율이 다를뿐더러, 수수료까지 물어야해서..
-
-시간을 쏟은 비용까지 합하면 손해같으나 그래도 좋은 경험을 한 것으로 만족.
-
-영국의 CS 상담처리방식이 이렇게 수준이 낮은 것인지, 
-
-내가 연락하지 않고 계속 기다렸다면 과연 어떤 결론이 나왔을지...
-
-[Compass Point](https://compasspoint-online.co.uk) 정말 비추!!!
-
-언젠가 사기를 당한다면, 사기꾼을 내 손으로 잡는 그날까지 직구는 계속됩니다!!
 
 ![order-at-compasspoint1.jpg](/img/in-post/order-at-compasspoint1.jpg)
