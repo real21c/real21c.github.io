@@ -25,8 +25,8 @@
 
 <div class="profile">
 안녕하세요.<br/>
-IT를 통해서 삶에 여러가지를 개선하고 해결해 나가는 것을 좋아하는 개발자입니다.<br/>
-자세한 이력은 <a href="https://www.linkedin.com/in/real21c/" target="_blank">[링크드인 프로필]</a> 열람해서 조회가능합니다.<br/>
+IT를 통해서 일상의 불편함을 개선하고 해결해 나가는 것을 좋아하는 개발자입니다.<br/>
+이력서는 <a href="https://www.linkedin.com/in/real21c/" target="_blank">[링크드인 프로필]</a> 열람해서 조회가능합니다.<br/>
 </div>
 
 <section class="cd-timeline js-cd-timeline" style="background-color:#fff;">
@@ -87,20 +87,20 @@ IT를 통해서 삶에 여러가지를 개선하고 해결해 나가는 것을 �
 <div class="cd-timeline__content text-component">
 <h2>(주)도움</h2>
 <p class="color-contrast-medium">
-1) 경력: 5년 11개월<br/>
-2) 타 회사 이직 기회로 퇴사<br/>
-3) 업무내용<br/>
+1) 5년 11개월<br/>
+2) 그룹웨어 솔루션/백오피스 개발<br/>
 <font style="font-size:1.3rem">
-- Win32, Front/Back-End, DB 등.. 다양한 기술 개발<br/>
-- 사내IT 인프라(300명 client) 유지보수<br/>
-- 커뮤니티 미니홈피 아바타 모듈 <b>cgi-bin</b><br/>
-- ERP 솔루션 / BOM 에디터 <b>ActiveX</b><br/>
-- 웹매일 처리기 <b>ActiveX DLL</b><br/>
-- 워크플로우 상태변경 프로세스 엔진 <b>Win32</b><br/>
-- 사내 전자결제시스템 개발 + 지문인식API <b>Win32</b><br/>
-- 금형 실시간 작업 현황 LCD <b>Win32</b><br/>
-- 지식정보 공유시스템 <b>Web</b><br/>
-- 온라인 프로젝트 관리 Gantt 차트 <b>Web</b><br/></font>
+- 커뮤니티 미니홈피 / 아바타 모듈(cgi-bin)<br/>
+- 자재 관리 솔루션, BOM 에디터 (Active X)<br/>
+- 웹매일 Back-End (ActiveX DLL)<br/>
+- 워크플로우 상태변경, 프로세스처리 엔진 (Win32 EXE)<br/>
+- 사내 전자결제시스템 개발 + 지문인식API연동<br/>
+- 금형 실시간 작업 현황 LCD 대시보드<br/>
+- 지식정보 공유시스템<br/>
+- 온라인 프로젝트 관리 (Gantt 차트)<br/>
+</font>
+3) 사내IT 인프라 관리<br/>
+4) 퇴사 사유: 업무 역량 강화<br/>
 </p>
 <div class="flex justify-between items-center">
 <span class="cd-timeline__date">2007년 2월</span>
@@ -134,9 +134,8 @@ IT를 통해서 삶에 여러가지를 개선하고 해결해 나가는 것을 �
 <div class="cd-timeline__content text-component">
 <h2>SM온라인</h2>
 <p class="color-contrast-medium">
-1) 경력: 2년 1개월<br/>
-2) 회사 파산으로 퇴사<br/>
-3) 업무내용<br/>
+1) 2년 1개월<br/>
+2) Front-End / Back-End<br/>
 <font style="font-size:1.3rem">
 - 다모임 동창찾기 커뮤니티 카페 <b>Web</b><br/>
 - SM엔터테인먼트 소속 아티스트 관리 솔루션 <b>Web</b><br/>
@@ -144,6 +143,7 @@ IT를 통해서 삶에 여러가지를 개선하고 해결해 나가는 것을 �
 - 자바스크립트 HTML 웹 에디터 <b>Web</b><br/>
 - 엠엔캐스트 동영상 인코딩 프로세서 개발 <b>Web</b><br/>
 </font>
+4) 퇴사 사유: 회사 파산
 </p>
 <div class="flex justify-between items-center">
 <span class="cd-timeline__date">2009년 2월</span>
@@ -160,13 +160,14 @@ IT를 통해서 삶에 여러가지를 개선하고 해결해 나가는 것을 �
 <div class="cd-timeline__content text-component">
 <h2>Webchon</h2>
 <p class="color-contrast-medium">
-1) 경력: 1년 3개월<br/>
-2) 타 회사 이직기회로 퇴사<br/>
-3) 업무내용<br/>
+1) 1년 3개월<br/>
+2) 솔루션 개발<br/>
 <font style="font-size:1.3rem">
-- 홈페이지 솔루션 빌더 및 통계도구 <b>Web</b><br/>
+- 홈페이지 솔루션 빌더 및 백오피스 <b>Web</b><br/>
 - 온라인 증명서 발급 시스템 <b>ActiveX</b><br/>
 - 서해사랑 커뮤니티 <b>Web</b><br/></font>
+3) 퇴사 사유: 업무 역량 강화<br/>
+
 </p>
 <div class="flex justify-between items-center">
 <span class="cd-timeline__date">2010년 4월</span>
@@ -183,13 +184,13 @@ IT를 통해서 삶에 여러가지를 개선하고 해결해 나가는 것을 �
 <div class="cd-timeline__content text-component">
 <h2>프리챌</h2>
 <p class="color-contrast-medium">
-1) 경력: 10개월<br/>
-2) 회사 파산으로 퇴사<br/>
-3) 업무내용<br/>
+1) 10개월<br/>
+2) Front-End / Back-End<br/>
 <font style="font-size:1.3rem">
 - 뉴스 포탈사이트 개발 <b>Web</b><br/>
 - KTF 통신사 FreeZone 프리챌 서비스 연동 <b>M-Web</b><br/>
 - 트위터 실시간 확인 TweetShow 개발 <b>Web</b><br/></font>
+3) 퇴사 사유: 회사 파산
 </p>
 <div class="flex justify-between items-center">
 <span class="cd-timeline__date">2011년 3월</span>
@@ -206,12 +207,13 @@ IT를 통해서 삶에 여러가지를 개선하고 해결해 나가는 것을 �
 <div class="cd-timeline__content text-component">
 <h2>캔즈플렉스</h2>
 <p class="color-contrast-medium">
-1) 경력: 1년 10개월<br/>
-2) 개인과 회사의 목표 상이해서 퇴사<br/>
-3) 업무내용<br/>
+1) 1년 10개월<br/>
+2) Front-End / Back-End<br/>
 <font style="font-size:1.3rem">
-- 사내IT 인프라 유지보수 (10명)<br/>
-- 병원/의원 홈페이지 솔루션 개발 <b>Web</b><br/></font>
+- 병원/의원 홈페이지 솔루션 <b>Web</b><br/>
+- 백오피스 <b>Web</b></font><br/>
+3) 사내IT 인프라 관리<br/>
+4) 퇴사 사유: 업무 역량 강화
 </p>
 <div class="flex justify-between items-center">
 <span class="cd-timeline__date">2012년 12월</span>
@@ -228,12 +230,14 @@ IT를 통해서 삶에 여러가지를 개선하고 해결해 나가는 것을 �
 <div class="cd-timeline__content text-component">
 <h2>프리랜서</h2>
 <p class="color-contrast-medium">
-1) 경력: 6년 2개월<br/>
-2) 업무내용<br/>
+1) 6년 2개월<br/>
+2) 솔루션 개발<br/>
 <font style="font-size:1.3rem">
-- 모바일 하이브리드 웹앱 다수 <b>Web</b><br/>
-- PC/MOBILE 홈페이지 솔루션 다수 <b>Web</b><br/>
-- 실시간 음악 스트리밍 저작권징수 솔루션 <b>Web</b><br/></font>
+- 어린이집/유치원 식자재 관리 솔루션 <b>Web</b><br/>
+- 모바일 하이브리드 앱 다수<b>Web</b><br/>
+- WEB/MOBILE 솔루션 유지보수 <b>Android</b><br/>
+- 실시간 음악 스트리밍 저작권징수 관리 솔루션 <b>Web</b><br/>
+</font>
 </p>
 <div class="flex justify-between items-center">
 <span class="cd-timeline__date">2019년 2월</span>
@@ -250,11 +254,10 @@ IT를 통해서 삶에 여러가지를 개선하고 해결해 나가는 것을 �
 <div class="cd-timeline__content text-component">
 <h2>언성데이터 개인사업자</h2>
 <p class="color-contrast-medium">
-1) 경력: 1년 11개월<br/>
+1) 1년 11개월 (폐업)<br/>
 <font style="font-size:1.3rem">
-- 중소기업벤처부 창업기업지원<br/></font>
-- 운동솔루션 사업 (다이엑트 런칭) <b>Mobile</b></font>
-2) 2020년 12월 폐업<br/>
+- 중소기업벤처부 창업기업 선정<br/>
+- 운동솔루션 개발 사업 (다이엑트 런칭) <b>Android</b></font>
 </p>
 <div class="flex justify-between items-center">
 <span class="cd-timeline__date">2020년 12월</span>
@@ -270,7 +273,12 @@ IT를 통해서 삶에 여러가지를 개선하고 해결해 나가는 것을 �
 <div class="cd-timeline__content text-component">
 <h2>DONGMANI STUDIO</h2>
 <p class="color-contrast-medium">
-준비중입니다.
+1) 솔루션 개발<br/>
+<font style="font-size:1.3rem">
+- <b>Android</b> App (download: 50k+)<br/>
+- 온라인 증명서 발급 시스템 <b>Web</b><br/>
+- 백오피스 <b>Web</b><br/>
+</font>
 </p>
 <div class="flex justify-between items-center">
 <span class="cd-timeline__date">진행중</span>
