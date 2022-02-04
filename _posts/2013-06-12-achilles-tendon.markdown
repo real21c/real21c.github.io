@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 💉 아킬레스건 파열 - 수술
+title: 💉 아킬레스건 파열(1) - 수술
 date: 2013-06-12 13:21:12 +0900
 description: 아킬레스건 끊어졌다ㅠ # Add post description (optional)
 img: /report/achilles-tendon-1.jpg # Add image post (optional)

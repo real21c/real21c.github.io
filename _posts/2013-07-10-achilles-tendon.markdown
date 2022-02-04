@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 💉 아킬레스건 파열 - 재활
+title: 💉 아킬레스건 파열(2) - 재활
 date: 2013-07-10 09:11:37 +0900
 description: 깁스해체, 재활시작 # Add post description (optional)
 img: /report/achilles-tendon-2.jpg # Add image post (optional)
