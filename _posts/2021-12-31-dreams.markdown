@@ -1,6 +1,6 @@
 ---
 layout: post
-title: ⭐�️ 앞으로의 꿈
+title: ⭐ 앞으로의 꿈
 date: 2021-12-31 09:11:31 +0900
 description: 2021년 단상 # Add post description (optional)
 img: report/kakao-adfit1.png # Add image post (optional)
