@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 📆 총선 투표소 알바 후기
+title: 🗳️ 총선 투표소 알바 후기
 date: 2018-06-16 23:59:14 +0900
 description: 총선 투표소 알바 후기 # Add post description (optional)
 img: default.jpg # Add image post (optional)
