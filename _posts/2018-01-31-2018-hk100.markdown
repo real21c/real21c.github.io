@@ -1,6 +1,6 @@
 ﻿---
 layout: post
-title: 📝 Vibram Hong Kong 100 Ultra Trail Race 
+title: 📝 2018 Hong Kong 100 참가 후기 (83km DNF)
 date: 2018-01-31 05:33:12 +0900
 description: Vibram Hong Kong 100 Ultra Trail Race  # Add post description (optional)
 img: report/2018-jan-1.jpg # Add image post (optional)
@@ -9,6 +9,7 @@ tags: [트레일러닝]
 ---
 
 ## 1. 참가 동기  
+- 2018 Vibram Hong Kong Ultra Trail Race
 - 접수하면 대부분 참가할 수 있는 국내시장과 다르게, 홍콩에서 열리는 HK100은 무작위 추첨을 통해 당첨된 사람에게 참가를 허용하는 시스템이 나에게는 너무 흥미로웠다.  
 - 어떤 분위기인지 호기심과 함께, 일단 접수 신청해서 당첨이 되면 다시 생각해보자고 했는데, 나같은 초보가 설마 되겠어라는 반신반의가 컸는데, 운이 좋았는지 당첨이 되었다.  
   
