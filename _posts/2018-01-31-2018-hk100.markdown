@@ -1,6 +1,6 @@
 ﻿---
 layout: post
-title: ⛰� 2018 Hong Kong 100 참가 후기 (DNF)
+title: ⛰️ 2018 Hong Kong 100 참가 후기 (DNF)
 date: 2018-01-31 05:33:12 +0900
 description: Vibram Hong Kong 100 Ultra Trail Race  # Add post description (optional)
 img: report/2018-jan-1.jpg # Add image post (optional)
