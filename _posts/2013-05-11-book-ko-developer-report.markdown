@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 📓 대한민국 개발자 희망보고서
+title: 📕 대한민국 개발자 희망보고서
 date: 2013-05-11 02:13:13 +0900
 description: Vibram Hong Kong 100 Ultra Trail Race  # Add post description (optional)
 fig-caption: # Add figcaption (optional)
