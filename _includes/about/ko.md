@@ -136,9 +136,9 @@ IT를 통해서 일상의 불편함을 개선하고 해결해 나가는 것을 �
 1) 2년 1개월<br/>
 2) Front-End / Back-End<br/>
 <font style="font-size:1.3rem">
-- 다모임 동창찾기 커뮤니티 카페 <b>Web</b><br/>
+- 다모임 동창찾기 포털사이트<b>Web</b><br/>
 - SM엔터테인먼트 소속 아티스트 관리 솔루션 <b>Web</b><br/>
-- 아이플 포탈사이트 카페 <b>Web</b><br/>
+- 아이플 포털사이트<b>Web</b><br/>
 - 자바스크립트 HTML 웹 에디터 <b>Web</b><br/>
 - 엠엔캐스트 동영상 인코딩 프로세서 개발 <b>Web</b><br/>
 </font>
@@ -186,7 +186,7 @@ IT를 통해서 일상의 불편함을 개선하고 해결해 나가는 것을 �
 1) 10개월<br/>
 2) Front-End / Back-End<br/>
 <font style="font-size:1.3rem">
-- 뉴스 포탈사이트 개발 <b>Web</b><br/>
+- 뉴스 포털사이트 개발 <b>Web</b><br/>
 - KTF 통신사 FreeZone 프리챌 서비스 연동 <b>M-Web</b><br/>
 - 트위터 실시간 확인 TweetShow 개발 <b>Web</b><br/></font>
 3) 퇴사 사유: 회사 파산
