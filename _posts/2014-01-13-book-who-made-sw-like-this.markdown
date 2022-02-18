@@ -6,8 +6,6 @@ description: 대한민국 개발자 희망보고서 # Add post description (opti
 fig-caption: # Add figcaption (optional)
 tags: [리뷰]
 ---
-
-## 목차
 ![대한민국 개발자 희망보고서](https://image.yes24.com/momo/TopCate62/MidCate01/6109581.jpg)
 
 
