@@ -7,7 +7,6 @@ fig-caption: # Add figcaption (optional)
 tags: [리뷰]
 ---
 
-## 목차
 ![대한민국 개발자 희망보고서](https://image.yes24.com/goods/2374638/XL)
 - Chapter1. 생존: IT 업계에서 살아가기
 - Chapter2. 정진: 소프트웨어 개발 잘하기
