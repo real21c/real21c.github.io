@@ -147,19 +147,19 @@ tags: [트레일러닝]
 
 나의 달리기는 장경인대 부상으로 16시간만에 83km에서 종료되었다.
 
-|CP|이름|거리/고도|도착시간|누적시간|  
+|CP|도착시간|누적시간|이름|거리/고도|
 |-|-|-|-|-|-|-|  
-|SP1|East Dam|11km / 280m+|09:06:20|1h 6m 07s|  
-|CP1|Ham Tin|21km / 760m+|10:17:24|2h 17m 11s|  
-|CP2|Wong Shek|28km / 1,110m+|11:17:34|3h 17m 21s|  
-|CP3|Hoi Ha|36km / 1,320m+|12:33:47|4h 33m 34s|  
-|CP4|Yung Shue O|45km / 1,570m+|14:06:13|6h 6m|  
-|CP5|Kei Ling Ha|52km / 2,120m+|15:47:53|7h 47m 40s|  
-|CP6|Giwell Camp|65km / 2,970m+|19:34:34:|11h 34m 21s|  
-|CP7|Beacon Hill|73km / 3,420m+|21:43:13|13h 43m|  
-|CP8|Shing Mun Dam|83km / 4,120m+|00:02:39|16h 2m 26s|  
-|CP9|Lead Mine Pass|90km / 4,720m+|-|-|  
-|FINISH|Rotary Club Park|100km / 4,820m+|-|-|
+|SP1|09:06:20|1h 6m 07s|East Dam|11km / 280m+|
+|CP1|10:17:24|2h 17m 11s|Ham Tin|21km / 760m+|
+|CP2|11:17:34|3h 17m 21s|Wong Shek|28km / 1,110m+|
+|CP3|12:33:47|4h 33m 34s|Hoi Ha|36km / 1,320m+|
+|CP4|14:06:13|6h 6m|Yung Shue O|45km / 1,570m+|
+|CP5|15:47:53|7h 47m 40s|Kei Ling Ha|52km / 2,120m+|
+|CP6|19:34:34:|11h 34m 21s|Kei Ling Ha|52km / 2,120m+|
+|CP7|21:43:13|13h 43m|Kei Ling Ha|52km / 2,120m+|
+|CP8|00:02:39|16h 2m 26s|Kei Ling Ha|52km / 2,120m+|
+|CP9|-|-|Kei Ling Ha|52km / 2,120m+|
+|FINISH|-|-|Kei Ling Ha|52km / 2,120m+|
 
 ## 7. Thanks to.
 - ICN입국할 때, 문석이형/현숙누나가 바쁘심에도 마중 와주셔서 고생했다고 밥도 사주시고, 성현이형도 집에까지 데려다주었다. 깜짝 이벤트. 주변에서 너무나도 과분한 응원을 받고있는데, 앞으로 어떻게 보답을 해야할는지 나도 기회를 찾고 있다. 
