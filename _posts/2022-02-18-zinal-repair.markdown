@@ -43,8 +43,7 @@ tags: [일상]
 ![지날 자가수리](/img/in-post/zinal-06.jpg)
 
 ## 6. 테스트
+[Strava 수락산-도정봉 트레일러닝](https://www.strava.com/activities/6709245715)
 - 18km (+998m)
 - 2시간 30분 수락산 트레일러닝 
 - 이제 복숭아뼈를 찌르지 않고, 신발이 정말 편하다.
-
-[Strava 수락산-도정봉 트레일러닝](https://www.strava.com/activities/6709245715)
