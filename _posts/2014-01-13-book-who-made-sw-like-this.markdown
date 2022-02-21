@@ -2,11 +2,11 @@
 layout: post
 title: 📕 소프트웨어 누가 이렇게 개떡 같이 만든거야
 date: 2014-01-13 12:33:13 +0900
-description: 대한민국 개발자 희망보고서 # Add post description (optional)
+description: 소프트웨어 누가 이렇게 개떡 같이 만든거야 # Add post description (optional)
 fig-caption: # Add figcaption (optional)
 tags: [리뷰]
 ---
-![대한민국 개발자 희망보고서](https://image.yes24.com/momo/TopCate62/MidCate01/6109581.jpg)
+![소프트웨어 누가 이렇게 개떡 같이 만든거야](http://image.kyobobook.co.kr/images/book/xlarge/395/x9788991268395.jpg)
 
 
 ## 감상평 
