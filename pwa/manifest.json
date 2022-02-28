@@ -3,11 +3,11 @@
   "short_name": "Real21c Blog",
   "description": "트레일러너, 개발자, 그리고 은찡의남자",
   "icons": [{
-    "src": "icons/128.png",
+    "src": "/img/icons_128.png",
     "sizes": "128x128",
     "type": "image/png"
   }, {
-    "src": "icons/512.png",
+    "src": "/img/icons_512.png",
     "sizes": "512x512",
     "type": "image/png"
   }],
