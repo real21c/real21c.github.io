@@ -1,6 +1,6 @@
 ---
 layout: post
-title: ⛰️ 2022 서울 한양도성길 완주 후기 (20km)
+title: ⛰️ 2022 한양도성길 완주 후기 (20km)
 date: 2022-03-12 23:11:23 +0900
 description: 2022 한양도성길 완주 후기 # Add post description (optional)
 fig-caption: # Add figcaption (optional)
