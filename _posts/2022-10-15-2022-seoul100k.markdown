@@ -1,6 +1,6 @@
 ---
 layout: post
-title: ⛰️ 2022 서울100K 완주 후기 (109km)
+title: ⛰️ 2022 서울100K 완주 후기 (110km)
 date: 2022-10-18 21:44:23 +0900
 description: 2022 서울100K 완주 후기 # Add post description (optional)
 fig-caption: # Add figcaption (optional)
