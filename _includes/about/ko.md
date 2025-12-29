@@ -243,10 +243,18 @@ a.icon-linkedin{
 <div class="profile">
 <article class="single-post">                
 	<section class="post-content">           
-		<div class="md-card no-border"><p>
+		<div class="md-card no-border desktop-only"><p>
 		일상과 업무에 새로운 가치를 더하는 데 깊은 관심을 가지고 있으며,<br/>
 		생활 속 불편한 문제를 IT 기술로 개선하고 해결하는 것을 즐기는 개발자입니다.<br/>
 		자세한 경력과 프로젝트는 <a href="https://linkedin.com/in/real21c/" rel="me" itemprop="sameAs" class="icon-linkedin" target="_blank">LinkedIn</a> 프로필에서 확인하실 수 있습니다.</p></div>
+
+		<div class="md-card no-border mobile-only"><p>
+		일상과 업무에 새로운 가치를 더하는 데
+		깊은 관심을 가지고 있으며,<br/>
+		생활 속 불편한 문제를 IT 기술로 개선하고 
+		해결하는 것을 즐기는 개발자입니다.<br/>
+		자세한 경력과 프로젝트는 <a href="https://linkedin.com/in/real21c/" rel="me" itemprop="sameAs" class="icon-linkedin" target="_blank">LinkedIn</a> 프로필에서 
+		확인하실 수 있습니다.</p></div>
 
 		<div class="author-info">
 			<div class="author-meta">
@@ -473,8 +481,8 @@ a.icon-linkedin{
 						</li>
 						<li class="timeline-item">
 							<div class="timeline-info">
-								<span>Apr,2001 ~ Feb,2007&nbsp; </span>
-								<span><strong>5</strong> yrs <strong>11</strong> mos</span>
+								<span>Apr,2001~Feb,2007&nbsp; </span>
+								<span style="color:tomato;"><strong>(5</strong> yrs <strong>11</strong> mos)</span>
 							</div>
 							<div class="timeline-marker"></div>
 							<div class="timeline-content" style="font-size:1.5rem;">
