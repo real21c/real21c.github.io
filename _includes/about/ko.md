@@ -186,8 +186,9 @@ color:#aaa;
 }
 
 .timeline-company{
-color:#aaa;
-font-weight: normal;
+	color:#aaa;
+	font-weight: normal;
+	font-size:16px;
 }
 
 .post-content ol, .post-content ul {
@@ -212,6 +213,9 @@ font-weight: normal;
 	}
 }
 
+.post-container li h4{
+	line-height:initial;
+}
 </style>
 
 <div class="profile">
@@ -294,7 +298,7 @@ font-weight: normal;
 							<div class="timeline-content" style="font-size:1.5rem;">
 								<h4 class="timeline-title">Web Developer<br/><span class="timeline-company" style="font-weight:400;">프리챌</span></h4>
 								<p>- 프리챌 뉴스 포털 사이트 개발</p>
-								<p>- 프리챌 모바일 서비스 연동/개발 (KTF Freezone)</p>
+								<p>- 프리챌 모바일 서비스 통신사 연동/개발 (KTF Freezone)</p>
 								<p>- 트위터 실시간 노출 서비스 TweetShow 개발</p>
 							</div>
 						</li>
@@ -312,7 +316,7 @@ font-weight: normal;
 							<div class="timeline-content" style="font-size:1.5rem;">
 								<h4 class="timeline-title">Web Developer<br/><span class="timeline-company" style="font-weight:400;">SM온라인</span></h4>
 								<p>- SM엔터테인먼트 스타 커뮤니티 포털 개발</p>
-								<p>- 엠엔캐스트 동영상 스트리밍 인코딩 시스템 마이그레이션 (VP6 → H.264)</p>
+								<p>- 엠엔캐스트 동영상 스트리밍 인코딩 프로세서 마이그레이션 (VP6 → H.264)</p>
 								<p>- 동창 찾기 서비스 ‘다모임’ 개발 참여</p>
 							</div>
 						</li>
