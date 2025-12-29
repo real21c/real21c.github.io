@@ -472,7 +472,10 @@ a.icon-linkedin{
 							</div>
 						</li>
 						<li class="timeline-item">
-							<div class="timeline-info"><span>Apr,2001 ~ Jul,2007</span></div>
+							<div class="timeline-info">
+								<span>Apr,2001 ~ Feb,2007&nbsp; </span>
+								<span><strong>5</strong> yrs <strong>11</strong> mos</span>
+							</div>
 							<div class="timeline-marker"></div>
 							<div class="timeline-content" style="font-size:1.5rem;">
 								<h4 class="timeline-title">Web Application Developer<br/><span class="timeline-company" style="font-weight:400;">(주)도움</span></h4>
