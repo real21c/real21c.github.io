@@ -318,7 +318,7 @@ a.icon-linkedin{
 							</div>
 							<div class="timeline-marker"></div>
 							<div class="timeline-content" style="font-size:1.5rem;">
-								<h4 class="timeline-title">Founder / CTO<br/><span class="timeline-company" style="font-weight:400;">언성데이터</span></h4>
+								<h4 class="timeline-title">Founder / CTO<br/><span class="timeline-company" style="font-weight:400;">Unsung Data</span></h4>
 								<p>- K-Startup Selected for Support from the Ministry of SMEs and Startups</p>
 								<p>- Healthcare Solution Planning and Web/Android Service Development/Launch</p>
 							</div>
@@ -354,7 +354,7 @@ a.icon-linkedin{
 							</div>
 							<div class="timeline-marker"></div>
 							<div class="timeline-content" style="font-size:1.5rem;">
-								<h4 class="timeline-title">Web Developer<br/><span class="timeline-company" style="font-weight:400;">프리챌</span></h4>
+								<h4 class="timeline-title">Web Developer<br/><span class="timeline-company" style="font-weight:400;">Freechal</span></h4>
 								<p>- Development of Freechal News Portal Site</p>
 								<p>- Freechal Mobile Service Telecom Integration/Development (KTF Freezone)</p>
 								<p>- Development of TweetShow, a real-time Twitter exposure service</p>
@@ -378,7 +378,7 @@ a.icon-linkedin{
 							</div>
 							<div class="timeline-marker"></div>
 							<div class="timeline-content" style="font-size:1.5rem;">
-								<h4 class="timeline-title">Web Developer<br/><span class="timeline-company" style="font-weight:400;">SM온라인</span></h4>
+								<h4 class="timeline-title">Web Developer<br/><span class="timeline-company" style="font-weight:400;">SM ONLINE</span></h4>
 								<p>- Development of SM Entertainment's Star Community Portal</p>
 								<p>- Migration of MNcast video streaming encoding processor (VP6 → H.264)</p>
 								<p>- Participation in the development of the alumni search service "Damoim"</p>
@@ -391,7 +391,7 @@ a.icon-linkedin{
 							</div>
 							<div class="timeline-marker"></div>
 							<div class="timeline-content" style="font-size:1.5rem;">
-								<h4 class="timeline-title">Web Application Developer<br/><span class="timeline-company" style="font-weight:400;">(주)도움</span></h4>
+								<h4 class="timeline-title">Web Application Developer<br/><span class="timeline-company" style="font-weight:400;">DOM Co., Ltd.</span></h4>
 								<p>- Development of an in-house community web service (intranet, electronic payment)</p>
 								<p>- Development of a business support system that contributes to improving in-house productivity (ERP, BOM, mold status board)</p>
 								<p>- Development of an in-house business automation and information sharing system (workflow engine, knowledge management)</p>
