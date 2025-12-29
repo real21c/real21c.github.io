@@ -1,8 +1,8 @@
 ﻿---
 layout: post
-title: 📝 2016년 11월 결산
+title: 📝 2016년 결산
 date: 2016-12-02 13:31:32 +0900
-description: 2016년 11월 결산 # Add post description (optional)
+description: 2016년 결산 # Add post description (optional)
 img: report/2016-nov-1.jpg # Add image post (optional)
 fig-caption: # Add figcaption (optional)
 tags: [결산]
