@@ -216,6 +216,31 @@ color:#aaa;
 .post-container li h4{
 	line-height:initial;
 }
+
+.author-info {
+    width: 90%;
+    max-width: 700px;
+    text-align: center;
+    margin: 20px auto 40px;
+}
+
+.author-title {
+    font-size: 4rem;
+}
+
+.author-meta {
+    color: #9EABB3;
+    font-size: 1.6rem;
+}
+
+.author-meta a {
+    margin-top: 10px;
+    color: #9EABB3;
+}
+
+.author-meta a.icon-linkedin{
+    color: #0077b5;
+}
 </style>
 
 <div class="profile">
@@ -225,6 +250,14 @@ color:#aaa;
 		일상과 업무에 새로운 가치를 더하는 데 깊은 관심을 가지고 있으며,<br/>
 		생활 속 불편한 문제를 IT 기술로 개선하고 해결하는 것을 즐기는 개발자입니다.<br/>
 		자세한 경력과 프로젝트는 LinkedIn 프로필에서 확인하실 수 있습니다.</p></div>
+
+		<div class="author-info">
+			<h1 class="author-title" itemprop="name">Dongmin Kim</h1>
+			<div class="author-meta">
+				<a href="https://www.linkedin.com/in/real21c/" rel="me" itemprop="sameAs" class="icon-linkedin">LinkedIn</a> 
+			</div>                                  
+		</div>
+
 		<div class="timeline-container" style="padding: 0 0; margin-top:0;">
 			<div class="container-fluid">
 				<div class="row example-basic">
