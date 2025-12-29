@@ -588,7 +588,8 @@ function durationFromStartToNowHTML(startYear, startMonth) {
 
 	return html;
 }
-$(document).ready(function(){
-	$('.calc_my').html(durationFromStartToNowHTML(2020, 12));
+
+document.querySelectorAll('.calc_my').forEach(el => {
+	el.innerHTML = durationFromStartToNowHTML(2020, 12);
 });
 </script>
