@@ -311,7 +311,10 @@ a.icon-linkedin{
 							</div>
 						</li>
 						<li class="timeline-item">
-							<div class="timeline-info"><span>Feb,2019 ~ Dec,2020</span></div>
+							<div class="timeline-info">
+								<span>Feb,2019~Dec,2020</span>
+								<span style="color:tomato;"><strong>(1</strong> yrs <strong>11</strong> mos)</span>
+							</div>
 							<div class="timeline-marker"></div>
 							<div class="timeline-content" style="font-size:1.5rem;">
 								<h4 class="timeline-title">Founder / CTO<br/><span class="timeline-company" style="font-weight:400;">언성데이터</span></h4>
@@ -320,7 +323,10 @@ a.icon-linkedin{
 							</div>
 						</li>
 						<li class="timeline-item">
-							<div class="timeline-info"><span>Mar,2013 ~ Jan,2019</span></div>
+							<div class="timeline-info">
+								<span>Mar,2013~Jan,2019 Jan</span>
+								<span style="color:tomato;"><strong>(6</strong> yrs)</span>
+							</div>
 							<div class="timeline-marker"></div>
 							<div class="timeline-content" style="font-size:1.5rem;">
 								<h4 class="timeline-title">Software Engineer<br/><span class="timeline-company" style="font-weight:400;">Webchon</span></h4>
@@ -330,7 +336,10 @@ a.icon-linkedin{
 							</div>
 						</li>
 						<li class="timeline-item">
-							<div class="timeline-info"><span>Mar,2011 ~ Dec,2012</span></div>
+							<div class="timeline-info">
+								<span>Mar,2011~Dec,2012</span>
+								<span style="color:tomato;"><strong>(1</strong> yrs <strong>10</strong> mos)</span>
+							</div>
 							<div class="timeline-marker"></div>
 							<div class="timeline-content" style="font-size:1.5rem;">
 								<h4 class="timeline-title">Web Developer<br/><span class="timeline-company" style="font-weight:400;">Cansplex</span></h4>
@@ -338,7 +347,10 @@ a.icon-linkedin{
 							</div>
 						</li>
 						<li class="timeline-item">
-							<div class="timeline-info"><span>Jun,2010 ~ Mar,2011</span></div>
+							<div class="timeline-info">
+								<span>Jun,2010~Mar,2011</span>
+								<span style="color:tomato;">(<strong>11</strong> mos)</span>
+							</div>
 							<div class="timeline-marker"></div>
 							<div class="timeline-content" style="font-size:1.5rem;">
 								<h4 class="timeline-title">Web Developer<br/><span class="timeline-company" style="font-weight:400;">프리챌</span></h4>
@@ -348,7 +360,10 @@ a.icon-linkedin{
 							</div>
 						</li>
 						<li class="timeline-item">
-							<div class="timeline-info"><span>Feb,2009 ~ Apr,2010</span></div>
+							<div class="timeline-info">
+								<span>Feb,2009~Apr,2010</span>
+								<span style="color:tomato;"><strong>(1</strong> yrs <strong>3</strong> mos)</span>
+							</div>
 							<div class="timeline-marker"></div>
 							<div class="timeline-content" style="font-size:1.5rem;">
 								<h4 class="timeline-title">Web Application Developer<br/><span class="timeline-company" style="font-weight:400;">Webchon</span></h4>
@@ -356,7 +371,10 @@ a.icon-linkedin{
 							</div>
 						</li>
 						<li class="timeline-item">
-							<div class="timeline-info"><span>Feb,2007 ~ Feb,2009</span></div>
+							<div class="timeline-info">
+								<span>Feb,2007~Feb,2009</span>
+								<span style="color:tomato;"><strong>(2</strong> yrs <strong>1</strong> mos)</span>
+							</div>
 							<div class="timeline-marker"></div>
 							<div class="timeline-content" style="font-size:1.5rem;">
 								<h4 class="timeline-title">Web Developer<br/><span class="timeline-company" style="font-weight:400;">SM온라인</span></h4>
@@ -366,7 +384,10 @@ a.icon-linkedin{
 							</div>
 						</li>
 						<li class="timeline-item">
-							<div class="timeline-info"><span>Apr,2001 ~ Jul,2007</span></div>
+							<div class="timeline-info">
+								<span>Apr,2001~Jul,2007</span>
+								<span style="color:tomato;"><strong>(5</strong> yrs <strong>11</strong> mos)</span>
+							</div>
 							<div class="timeline-marker"></div>
 							<div class="timeline-content" style="font-size:1.5rem;">
 								<h4 class="timeline-title">Web Application Developer<br/><span class="timeline-company" style="font-weight:400;">(주)도움</span></h4>
@@ -443,7 +464,7 @@ a.icon-linkedin{
 						</li>
 						<li class="timeline-item">
 							<div class="timeline-info">
-								<span>Mar,2013~Jan,2019</span>
+								<span>Mar,2013~Jan,2019 Jan</span>
 								<span style="color:tomato;"><strong>(6</strong> yrs)</span>
 							</div>
 							<div class="timeline-marker"></div>
@@ -468,7 +489,7 @@ a.icon-linkedin{
 						<li class="timeline-item">
 							<div class="timeline-info">
 								<span>Jun,2010~Mar,2011</span>
-								<span style="color:tomato;"><strong>(<strong>11</strong> mos)</span>
+								<span style="color:tomato;">(<strong>11</strong> mos)</span>
 							</div>
 							<div class="timeline-marker"></div>
 							<div class="timeline-content" style="font-size:1.5rem;">
