@@ -2,7 +2,7 @@
 layout: page
 title: "프로필"
 description: ""
-header-img: "img/about-bg.jpg"
+header-img: "img/profile-bg.jpg"
 multilingual: true
 ---
 
@@ -10,14 +10,14 @@ multilingual: true
 
 <!-- Korean Version -->
 <div class="ko post-container">
-    {% capture about_ko %}{% include about/ko.md %}{% endcapture %}
-    {{ about_ko | markdownify }}
+    {% capture profile_ko %}{% include profile/ko.md %}{% endcapture %}
+    {{ profile_ko | markdownify }}
 </div>
 
 <!-- English Version -->
 <div class="en post-container">
-    {% capture about_en %}{% include about/en.md %}{% endcapture %}
-    {{ about_en | markdownify }}
+    {% capture profile_en %}{% include profile/en.md %}{% endcapture %}
+    {{ profile_en | markdownify }}
 </div>
 
 
