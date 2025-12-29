@@ -250,7 +250,7 @@ color:#aaa;
 							<div class="timeline-marker"></div>
 							<div class="timeline-content" style="font-size:1.5rem;">
 								<h4 class="timeline-title">Mobile Developer (Android / iOS)</h4>
-								<p>- 150+ 고객사 모바일 앱 End-to-End 개발 및 운영</p>
+								<p>- 150여 개 이상 고객사 모바일 앱 End-to-End 개발 및 배포 수행</p>
 							</div>
 						</li>
 						<li class="timeline-item">
@@ -363,7 +363,7 @@ color:#aaa;
 							<div class="timeline-marker"></div>
 							<div class="timeline-content" style="font-size:1.5rem;">
 								<h4 class="timeline-title">Mobile Developer (Android / iOS)</h4>
-								<p>- 150여 개 이상 모바일 앱 End-to-End 개발 및 배포 수행</p>
+								<p>- 150+ 고객사 모바일 앱 End-to-End 개발 및 운영</p>
 							</div>
 						</li>
 						<li class="timeline-item">
@@ -371,7 +371,7 @@ color:#aaa;
 							<div class="timeline-marker"></div>
 							<div class="timeline-content" style="font-size:1.5rem;">
 								<h4 class="timeline-title">DevOps Engineer</h4>
-								<p>- 시스템 이상 탐지 모니터링 솔루션 개발 (사내 적용)</p>
+								<p>- 시스템 이상 탐지 모니터링 솔루션 개발</p>
 							</div>
 						</li>
 						<li class="timeline-item period">
@@ -396,7 +396,7 @@ color:#aaa;
 							<div class="timeline-content" style="font-size:1.5rem;">
 								<h4 class="timeline-title">Software Engineer<br/><span class="timeline-company" style="font-weight:400;">Webchon</span></h4>
 								<p>- 매장 음악 편성 및 실시간 스트리밍 웹서비스 개발</p>
-								<p>- 익명성 공익제보 및 청탁금지법 위반 신고 솔루션 개발</p>
+								<p>- 익명성 공익제보/청탁금지법 위반 신고 솔루션 개발</p>
 								<p>- 고위공직자 부패 위험성 진단 설문 솔루션 개발</p>
 							</div>
 						</li>
@@ -432,7 +432,8 @@ color:#aaa;
 							<div class="timeline-content" style="font-size:1.5rem;">
 								<h4 class="timeline-title">Web Developer<br/><span class="timeline-company" style="font-weight:400;">SM온라인</span></h4>
 								<p>- SM엔터테인먼트 스타 커뮤니티 포털 개발</p>
-								<p>- 엠엔캐스트 동영상 스트리밍 인코딩 프로세서 마이그레이션 (VP6 → H.264)</p>
+								<p>- 엠엔캐스트 동영상 스트리밍 인코딩 프로세서<br/>
+								&nbsp; 마이그레이션 (VP6 → H.264)</p>
 								<p>- 동창 찾기 서비스 ‘다모임’ 개발 참여</p>
 							</div>
 						</li>
