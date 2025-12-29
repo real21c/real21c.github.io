@@ -47,7 +47,7 @@ width: 15px;
 }
 
 .timeline-marker:before {
-background: tomato; /* $primary-color */
+background: #fbceb1; /* $primary-color */
 border: 2px solid transparent;
 border-radius: 100%;
 content: "";
@@ -279,7 +279,7 @@ a.icon-linkedin{
 						<li class="timeline-item">
 							<div class="timeline-info">
 								<span>Dec,2020~Now</span>
-								<span class="calc_my" style="color:tomato;"></span>
+								<span class="calc_my" style="color:#fbceb1;"></span>
 							</div>
 							<div class="timeline-marker"></div>
 							<div class="timeline-content" style="font-size:1.5rem;">
@@ -293,7 +293,7 @@ a.icon-linkedin{
 						<li class="timeline-item">
 							<div class="timeline-info">
 								<span>Dec,2020~Now</span>
-								<span class="calc_my" style="color:tomato;"></span>
+								<span class="calc_my" style="color:#fbceb1;"></span>
 							</div>
 							<div class="timeline-marker"></div>
 							<div class="timeline-content" style="font-size:1.5rem;">
@@ -304,7 +304,7 @@ a.icon-linkedin{
 						<li class="timeline-item">
 							<div class="timeline-info">
 								<span>Dec,2020~Now</span>
-								<span class="calc_my" style="color:tomato;"></span>
+								<span class="calc_my" style="color:#fbceb1;"></span>
 							</div>
 							<div class="timeline-marker"></div>
 							<div class="timeline-content" style="font-size:1.5rem;">
@@ -322,7 +322,7 @@ a.icon-linkedin{
 						<li class="timeline-item">
 							<div class="timeline-info">
 								<span>Feb,2019~Dec,2020</span>
-								<span style="color:tomato;"><strong>(1</strong> yr <strong>11</strong> mos)</span>
+								<span style="color:#fbceb1;"><strong>(1</strong> yr <strong>11</strong> mos)</span>
 							</div>
 							<div class="timeline-marker"></div>
 							<div class="timeline-content" style="font-size:1.5rem;">
@@ -334,7 +334,7 @@ a.icon-linkedin{
 						<li class="timeline-item">
 							<div class="timeline-info">
 								<span>Mar,2013~Jan,2019 Jan</span>
-								<span style="color:tomato;"><strong>(6</strong> yrs)</span>
+								<span style="color:#fbceb1;"><strong>(6</strong> yrs)</span>
 							</div>
 							<div class="timeline-marker"></div>
 							<div class="timeline-content" style="font-size:1.5rem;">
@@ -347,7 +347,7 @@ a.icon-linkedin{
 						<li class="timeline-item">
 							<div class="timeline-info">
 								<span>Mar,2011~Dec,2012</span>
-								<span style="color:tomato;"><strong>(1</strong> yr <strong>10</strong> mos)</span>
+								<span style="color:#fbceb1;"><strong>(1</strong> yr <strong>10</strong> mos)</span>
 							</div>
 							<div class="timeline-marker"></div>
 							<div class="timeline-content" style="font-size:1.5rem;">
@@ -358,7 +358,7 @@ a.icon-linkedin{
 						<li class="timeline-item">
 							<div class="timeline-info">
 								<span>Jun,2010~Mar,2011</span>
-								<span style="color:tomato;">(<strong>11</strong> mos)</span>
+								<span style="color:#fbceb1;">(<strong>11</strong> mos)</span>
 							</div>
 							<div class="timeline-marker"></div>
 							<div class="timeline-content" style="font-size:1.5rem;">
@@ -371,7 +371,7 @@ a.icon-linkedin{
 						<li class="timeline-item">
 							<div class="timeline-info">
 								<span>Feb,2009~Apr,2010</span>
-								<span style="color:tomato;"><strong>(1</strong> yr <strong>3</strong> mos)</span>
+								<span style="color:#fbceb1;"><strong>(1</strong> yr <strong>3</strong> mos)</span>
 							</div>
 							<div class="timeline-marker"></div>
 							<div class="timeline-content" style="font-size:1.5rem;">
@@ -382,7 +382,7 @@ a.icon-linkedin{
 						<li class="timeline-item">
 							<div class="timeline-info">
 								<span>Feb,2007~Feb,2009</span>
-								<span style="color:tomato;"><strong>(2</strong> yrs <strong>1</strong> mo)</span>
+								<span style="color:#fbceb1;"><strong>(2</strong> yrs <strong>1</strong> mo)</span>
 							</div>
 							<div class="timeline-marker"></div>
 							<div class="timeline-content" style="font-size:1.5rem;">
@@ -395,7 +395,7 @@ a.icon-linkedin{
 						<li class="timeline-item">
 							<div class="timeline-info">
 								<span>Apr,2001~Jul,2007</span>
-								<span style="color:tomato;"><strong>(5</strong> yrs <strong>11</strong> mos)</span>
+								<span style="color:#fbceb1;"><strong>(5</strong> yrs <strong>11</strong> mos)</span>
 							</div>
 							<div class="timeline-marker"></div>
 							<div class="timeline-content" style="font-size:1.5rem;">
@@ -422,7 +422,7 @@ a.icon-linkedin{
 						<li class="timeline-item">
 							<div class="timeline-info">
 								<span>Dec,2020~Now</span>
-								<span class="calc_my" style="color:tomato;"></span>
+								<span class="calc_my" style="color:#fbceb1;"></span>
 							</div>
 							<div class="timeline-marker"></div>
 							<div class="timeline-content" style="font-size:1.5rem;">
@@ -436,7 +436,7 @@ a.icon-linkedin{
 						<li class="timeline-item">
 							<div class="timeline-info">
 								<span>Dec,2020~Now</span>
-								<span class="calc_my" style="color:tomato;"></span>
+								<span class="calc_my" style="color:#fbceb1;"></span>
 							</div>
 							<div class="timeline-marker"></div>
 							<div class="timeline-content" style="font-size:1.5rem;">
@@ -447,7 +447,7 @@ a.icon-linkedin{
 						<li class="timeline-item">
 							<div class="timeline-info">
 								<span>Dec,2020~Now</span>
-								<span class="calc_my" style="color:tomato;"></span>
+								<span class="calc_my" style="color:#fbceb1;"></span>
 							</div>
 							<div class="timeline-marker"></div>
 							<div class="timeline-content" style="font-size:1.5rem;">
@@ -465,7 +465,7 @@ a.icon-linkedin{
 						<li class="timeline-item">
 							<div class="timeline-info">
 								<span>Feb,2019~Dec,2020</span>
-								<span style="color:tomato;"><strong>(1</strong> yr <strong>11</strong> mos)</span>
+								<span style="color:#fbceb1;"><strong>(1</strong> yr <strong>11</strong> mos)</span>
 							</div>
 							<div class="timeline-marker"></div>
 							<div class="timeline-content" style="font-size:1.5rem;">
@@ -477,7 +477,7 @@ a.icon-linkedin{
 						<li class="timeline-item">
 							<div class="timeline-info">
 								<span>Mar,2013~Jan,2019 Jan</span>
-								<span style="color:tomato;"><strong>(6</strong> yrs)</span>
+								<span style="color:#fbceb1;"><strong>(6</strong> yrs)</span>
 							</div>
 							<div class="timeline-marker"></div>
 							<div class="timeline-content" style="font-size:1.5rem;">
@@ -490,7 +490,7 @@ a.icon-linkedin{
 						<li class="timeline-item">
 							<div class="timeline-info">
 								<span>Mar,2011~Dec,2012</span>
-								<span style="color:tomato;"><strong>(1</strong> yr <strong>10</strong> mos)</span>
+								<span style="color:#fbceb1;"><strong>(1</strong> yr <strong>10</strong> mos)</span>
 							</div>
 							<div class="timeline-marker"></div>
 							<div class="timeline-content" style="font-size:1.5rem;">
@@ -501,7 +501,7 @@ a.icon-linkedin{
 						<li class="timeline-item">
 							<div class="timeline-info">
 								<span>Jun,2010~Mar,2011</span>
-								<span style="color:tomato;">(<strong>11</strong> mos)</span>
+								<span style="color:#fbceb1;">(<strong>11</strong> mos)</span>
 							</div>
 							<div class="timeline-marker"></div>
 							<div class="timeline-content" style="font-size:1.5rem;">
@@ -514,7 +514,7 @@ a.icon-linkedin{
 						<li class="timeline-item">
 							<div class="timeline-info">
 								<span>Feb,2009~Apr,2010</span>
-								<span style="color:tomato;"><strong>(1</strong> yr <strong>3</strong> mos)</span>
+								<span style="color:#fbceb1;"><strong>(1</strong> yr <strong>3</strong> mos)</span>
 							</div>
 							<div class="timeline-marker"></div>
 							<div class="timeline-content" style="font-size:1.5rem;">
@@ -525,7 +525,7 @@ a.icon-linkedin{
 						<li class="timeline-item">
 							<div class="timeline-info">
 								<span>Feb,2007~Feb,2009</span>
-								<span style="color:tomato;"><strong>(2</strong> yrs <strong>1</strong> mo)</span>
+								<span style="color:#fbceb1;"><strong>(2</strong> yrs <strong>1</strong> mo)</span>
 							</div>
 							<div class="timeline-marker"></div>
 							<div class="timeline-content" style="font-size:1.5rem;">
@@ -539,7 +539,7 @@ a.icon-linkedin{
 						<li class="timeline-item">
 							<div class="timeline-info">
 								<span>Apr,2001~Feb,2007&nbsp; </span>
-								<span style="color:tomato;"><strong>(5</strong> yrs <strong>11</strong> mos)</span>
+								<span style="color:#fbceb1;"><strong>(5</strong> yrs <strong>11</strong> mos)</span>
 							</div>
 							<div class="timeline-marker"></div>
 							<div class="timeline-content" style="font-size:1.5rem;">
