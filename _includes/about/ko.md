@@ -1,292 +1,345 @@
-<link rel="stylesheet" href="/css/vertical-timeline.min.css">
 <style type="text/css">
-.profile{
-	font-size: 1.5rem;
-	font-family: "Malgun Gothic";
-	text-align:center;
+/*-- GENERAL STYLES ------------------------------*/
+.timeline {
+line-height: 1.4em;
+list-style: none;
+margin: 0;
+padding: 0;
+width: 100%;
 }
-.cd-timeline__content h2{
-	font-size: 2.5rem;
+
+.timeline h1,
+.timeline h2,
+.timeline h3,
+.timeline h4,
+.timeline h5,
+.timeline h6 {
+line-height: inherit;
 }
-.post-container h1+p, .post-container h2+p, .post-container h3+p, .post-container h4+p, .post-container h5+p, .post-container h6+p {
-	font-size: 1.7rem;
-	font-family: "Malgun Gothic";
+
+/*----- TIMELINE ITEM -----*/
+.timeline-item {
+padding-left: 40px;
+position: relative;
 }
-.cd-timeline__date { 
-	font-size: 1.7rem; 
-	font-family: "Malgun Gothic";
+
+.timeline-item:last-child {
+padding-bottom: 0;
 }
-.cd-timeline__img img {
-	width: 32px;
-	height: 32px;
+
+/*----- TIMELINE INFO -----*/
+.timeline-info {
+font-size: 12px;
+font-weight: 700;
+letter-spacing: 3px;
+margin: 0 0 .5em 0;
+text-transform: uppercase;
+white-space: nowrap;
 }
+
+/*----- TIMELINE MARKER -----*/
+.timeline-marker {
+position: absolute;
+top: 0;
+bottom: 0;
+left: 0;
+width: 15px;
+}
+
+.timeline-marker:before {
+background: tomato; /* $primary-color */
+border: 2px solid transparent;
+border-radius: 100%;
+content: "";
+display: block;
+height: 12px;
+position: absolute;
+top: 4px;
+left: 0;
+width: 12px;
+transition: background 0.3s ease-in-out,
+border 0.3s ease-in-out;
+}
+
+.timeline-marker:after {
+content: "";
+width: 3px;
+background: #CCD5DB;
+display: block;
+position: absolute;
+top: 24px;
+bottom: 0;
+left: 6px;
+}
+
+.timeline-item:last-child .timeline-marker:after {
+content: none;
+}
+
+
+/*----- TIMELINE CONTENT -----*/
+.timeline-content {
+padding-bottom: 40px;
+}
+
+.timeline-content p:last-child {
+margin-bottom: 0;
+}
+
+/*----- TIMELINE PERIOD -----*/
+.period {
+padding: 0;
+}
+
+.period .timeline-info {
+display: none;
+}
+
+.period .timeline-marker:before {
+background: transparent;
+content: "";
+width: 15px;
+height: auto;
+border: none;
+border-radius: 0;
+top: 0;
+bottom: 30px;
+position: absolute;
+border-top: 3px solid #CCD5DB;
+border-bottom: 3px solid #CCD5DB;
+}
+
+.period .timeline-marker:after {
+content: "";
+height: 32px;
+top: auto;
+}
+
+.period .timeline-content {
+padding: 40px 0 70px;
+}
+
+.period .timeline-title {
+margin: 0;
+}
+
+/*----------------------------------------------
+MOD: TIMELINE SPLIT
+----------------------------------------------*/
+@media (min-width: 768px) {
+.timeline-split .timeline {
+display: table;
+}
+
+.timeline-split .timeline-item {
+display: table-row;
+padding: 0;
+}
+
+.timeline-split .timeline-info,
+.timeline-split .timeline-marker,
+.timeline-split .timeline-content,
+.timeline-split .period .timeline-info {
+display: table-cell;
+vertical-align: top;
+}
+
+.timeline-split .timeline-marker {
+position: relative;
+}
+
+.timeline-split .timeline-content {
+padding-left: 30px;
+}
+
+.timeline-split .timeline-info {
+padding-right: 30px;
+}
+
+.timeline-split .period .timeline-title {
+position: relative;
+left: -45px;
+}
+}
+
+/*----------------------------------------------
+MOD: MARKER OUTLINE
+----------------------------------------------*/
+.marker-outline .timeline-marker:before {
+background: transparent;
+border-color: #3498db;
+}
+
+.marker-outline .timeline-item:hover .timeline-marker:before {
+background: #3498db;
+}
+
+.timeline-container:before {
+background:initial;
+}
+
+.timeline-content{
+padding:0 0 30px 0;
+}
+.timeline-info{
+color:#aaa;
+}
+
+.timeline-company{
+color:#aaa;
+font-weight: normal;
+}
+
+.post-content ol, .post-content ul {
+padding-left: 0rem;
+}
+
 </style>
 
-
 <div class="profile">
-안녕하세요.<br/>
-IT를 통해서 일상의 불편함을 개선하고 해결해 나가는 것을 좋아하는 개발자입니다.<br/>
-이력서는 <a href="https://www.linkedin.com/in/real21c/" target="_blank">[링크드인 프로필]</a> 열람해서 조회가능합니다.<br/>
+<article class="single-post">                
+	<section class="post-content">           
+		<div class="md-card no-border">
+			<p>일상과 업무에 새로운 가치를 더하는 데 깊은 관심을 가지고 있으며, 생활 속 불편한 문제를 IT 기술로 개선하고 해결하는 것을 즐기는 개발자입니다. <br/>자세한 경력과 프로젝트는 LinkedIn 프로필에서 확인하실 수 있습니다.</p>
+		</div>
+		<div class="timeline-container" style="padding: 0 0; margin-top:0;">
+			<div class="container-fluid">
+				<div class="row example-basic">
+					<div class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2">
+						<ul class="timeline">
+							<li class="timeline-item period">
+								<div class="timeline-info"></div>
+								<div class="timeline-marker"></div>
+								<div class="timeline-content">
+								<h2 class="timeline-title">현재</h2>
+								</div>
+							</li>
+							<li class="timeline-item">
+								<div class="timeline-info">
+								<span>Dec,2020 ~ Now</span>
+								</div>
+								<div class="timeline-marker"></div>
+								<div class="timeline-content" style="font-size:1.5rem;">
+								<h4 class="timeline-title">Software Engineer (Full-Stack)</h4>
+								<p>- XR 기반 3D 공간 디지털화 및 커스텀 뷰어 서비스 개발</p>
+								<p>- 교육기관용 디지털 사이니지 콘텐츠 재생 엔진 및 관리 플랫폼 개발</p>
+								<p>- 온라인 증명서 발급 솔루션 개발</p>
+								<p>- 교육기관 학사 운영 관리 웹서비스 개발</p>
+								</div>
+							</li>
+							<li class="timeline-item">
+								<div class="timeline-info">
+								<span>Dec,2020 ~ Now</span>
+								</div>
+								<div class="timeline-marker"></div>
+								<div class="timeline-content" style="font-size:1.5rem;">
+								<h4 class="timeline-title">Mobile Developer (Android / iOS)</h4>
+								<p>- 150여 개 이상 고객사 모바일 앱 End-to-End 개발 및 배포 수행</p>
+								</div>
+							</li>
+							<li class="timeline-item">
+								<div class="timeline-info">
+								<span>Dec,2020 ~ Now</span>
+								</div>
+								<div class="timeline-marker"></div>
+								<div class="timeline-content" style="font-size:1.5rem;">
+								<h4 class="timeline-title">DevOps Engineer</h4>
+								<p>- FDS 기반 시스템 이상 탐지 모니터링 솔루션 개발 (사내 적용)</p>
+								</div>
+							</li>
+							<li class="timeline-item period">
+								<div class="timeline-info"></div>
+								<div class="timeline-marker"></div>
+								<div class="timeline-content">
+								<h2 class="timeline-title">과거</h2>
+								</div>
+							</li>
+							<li class="timeline-item">
+								<div class="timeline-info">
+								<span>Feb,2019 ~ Dec,2020</span>
+								</div>
+								<div class="timeline-marker"></div>
+								<div class="timeline-content" style="font-size:1.5rem;">
+								<h4 class="timeline-title">Founder / CTO<br/><span class="timeline-company" style="font-weight:400;">언성데이터</span></h4>
+								<p>- K-Startup 중소벤처기업부 지원사업 선정</p>
+								<p>- 헬스케어 솔루션 기획 및 Web/Android 서비스 개발/출시</p>
+								</div>
+							</li>
+							<li class="timeline-item">
+								<div class="timeline-info">
+								<span>Mar,2013 ~ Jan,2019</span>
+								</div>
+								<div class="timeline-marker"></div>
+								<div class="timeline-content" style="font-size:1.5rem;">
+								<h4 class="timeline-title">Software Engineer<br/><span class="timeline-company" style="font-weight:400;">Webchon</span></h4>
+								<p>- 매장 음악 편성 및 실시간 스트리밍 웹서비스 개발</p>
+								<p>- 익명성 공익제보 및 청탁금지법 위반 신고 솔루션 개발</p>
+								<p>- 고위공직자 부패 위험성 진단 설문 솔루션 개발</p>
+								</div>
+							</li>
+							<li class="timeline-item">
+								<div class="timeline-info">
+								<span>Mar,2011 ~ Dec,2012</span>
+								</div>
+								<div class="timeline-marker"></div>
+								<div class="timeline-content" style="font-size:1.5rem;">
+								<h4 class="timeline-title">Web Developer<br/><span class="timeline-company" style="font-weight:400;">Cansplex</span></h4>
+								<p>- 병원/의원 홈페이지 솔루션 개발</p>
+								</div>
+							</li>
+							<li class="timeline-item">
+								<div class="timeline-info">
+								<span>Jun,2010 ~ Mar,2011</span>
+								</div>
+								<div class="timeline-marker"></div>
+								<div class="timeline-content" style="font-size:1.5rem;">
+								<h4 class="timeline-title">Web Developer<br/><span class="timeline-company" style="font-weight:400;">프리챌</span></h4>
+								<p>- 프리챌 뉴스 포털 사이트 개발</p>
+								<p>- 프리챌 모바일 서비스 연동/개발 (KTF Freezone)</p>
+								<p>- 트위터 실시간 노출 서비스 TweetShow 개발</p>
+								</div>
+							</li>
+							<li class="timeline-item">
+								<div class="timeline-info">
+								<span>Feb,2009 ~ Apr,2010</span>
+								</div>
+								<div class="timeline-marker"></div>
+								<div class="timeline-content" style="font-size:1.5rem;">
+								<h4 class="timeline-title">Web Application Developer<br/><span class="timeline-company" style="font-weight:400;">Webchon</span></h4>
+								<p>-홈페이지 솔루션 빌더 개발</p>
+								</div>
+							</li>
+							<li class="timeline-item">
+								<div class="timeline-info">
+								<span>Feb,2007 ~ Feb,2009</span>
+								</div>
+								<div class="timeline-marker"></div>
+								<div class="timeline-content" style="font-size:1.5rem;">
+								<h4 class="timeline-title">Web Developer<br/><span class="timeline-company" style="font-weight:400;">SM온라인</span></h4>
+								<p>- SM엔터테인먼트 스타 커뮤니티 포털 개발</p>
+								<p>- 엠엔캐스트 동영상 스트리밍 인코딩 시스템 마이그레이션 (VP6 → H.264)</p>
+								<p>- 동창 찾기 서비스 ‘다모임’ 개발 참여</p>
+								</div>
+							</li>
+							<li class="timeline-item">
+								<div class="timeline-info">
+								<span>Apr,2001 ~ Jul,2007</span>
+								</div>
+								<div class="timeline-marker"></div>
+								<div class="timeline-content" style="font-size:1.5rem;">
+								<h4 class="timeline-title">Web Application Developer<br/><span class="timeline-company" style="font-weight:400;">(주)도움</span></h4>
+								<p>- 사내 커뮤니티 웹서비스 개발 (인트라넷, 전자결제)</p>
+								<p>- 사내 생산성 향상 기여 업무 지원 시스템 개발 (ERP, BOM, 금형현황판)</p>
+								<p>- 사내 업무 자동화 및 정보 공유 시스템 개발 (워크플로우 엔진, 지식관리)</p>
+								</div>
+							</li>
+							<li class="timeline-item">
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+</article>
 </div>
-
-<section class="cd-timeline js-cd-timeline" style="background-color:#fff;">
-<div class="container max-width-lg cd-timeline__container">
-<div class="cd-timeline__block">
-<div class="cd-timeline__img cd-timeline__img--movie">
-<img src="/img/icon-graduation.png" alt="학교">
-</div> 
-<div class="cd-timeline__content text-component">
-<h2>인천정보산업고등학교</h2>
-<p class="color-contrast-medium">
-1) 정보전산과 졸업 (3년)<br/>
-2) 수상경력<br/>
-<font style="font-size:1.3rem">신성대학 윈도우즈 프로그래밍 경진대회<br/><b>동상</b><br/>
-경복대 전국 IT기술대회 작품공모전<br/><b>장려상</b><br/>
-한양대학교 전국 정보기술대전 게임 개발 분야<br/><b>행운상</b><br/>
-부천대 전국고교생경진대회 프로그래밍<br/><b>금상</b><br/>
-인천광역시 정보올림피아드본선 경시대회<br/><b>장려상</b><br/>
-경희대학교 전국 고등학생 전산경시대회<br/><b>장려상</b><br/>
-인천광역시 정보올림피아드예선 공모전<br/><b>우수상</b><br/>
-신성대 전국 월드베스트사이트 개발경진대회<br/><b>우수상</b><br/>
-경복대 전국 IT기술대회 작품공모전<br/><b>장려상</b><br/>
-부천대 전국고교생경진대회 일러스트레이션<br/><b>은상</b><br/>
-한세대학교 전국 중/고등학교 경시대회<br/><b>동상</b><br/>
-한세대학교 전국 중/고등학교 프로그래밍<br/><b>동상</b><br/>
-대한민국 컴퓨터 꿈나무 <b>교육부장관상</b><br/></font>
-</p>
-<div class="flex justify-between items-center">
-<span class="cd-timeline__date">2001년 2월</span>
-</div>
-</div> 
-</div> 
-
-
-
-
-<div class="cd-timeline__block">
-<div class="cd-timeline__img cd-timeline__img--picture">
-<img src="/img/icon-code.png" alt="회사">
-</div> 
-<div class="cd-timeline__content text-component">
-<h2>마이크로소프트웨어 잡지</h2>
-<p class="color-contrast-medium">
-네트워크 게임 개발 강의 연재 <b>Win32</b><br/>
-</p>
-<div class="flex justify-between items-center">
-<span class="cd-timeline__date">2002년 10월</span>
-</div>
-</div> 
-</div> 
-
-
-<div class="cd-timeline__block">
-<div class="cd-timeline__img cd-timeline__img--picture">
-<img src="/img/icon-code.png" alt="회사">
-</div> 
-<div class="cd-timeline__content text-component">
-<h2>(주)도움</h2>
-<p class="color-contrast-medium">
-1) 5년 11개월<br/>
-2) 그룹웨어 솔루션/백오피스 개발<br/>
-<font style="font-size:1.3rem">
-- 커뮤니티 미니홈피 / 아바타 모듈(cgi-bin)<br/>
-- 자재 관리 솔루션, BOM 에디터 (Active X)<br/>
-- 웹매일 Back-End (ActiveX DLL)<br/>
-- 워크플로우 상태변경, 프로세스처리 엔진 (Win32 EXE)<br/>
-- 사내 전자결제시스템 개발 + 지문인식API연동<br/>
-- 금형 실시간 작업 현황 LCD 대시보드<br/>
-- 지식정보 공유시스템<br/>
-- 온라인 프로젝트 관리 (Gantt 차트)<br/>
-</font>
-3) 사내IT 인프라 관리<br/>
-4) 퇴사 사유: 업무 역량 강화<br/>
-</p>
-<div class="flex justify-between items-center">
-<span class="cd-timeline__date">2007년 2월</span>
-</div>
-</div> 
-</div> 
-
-
-
-<div class="cd-timeline__block">
-<div class="cd-timeline__img cd-timeline__img--movie">
-<img src="/img/icon-graduation.png" alt="학교">
-</div> 
-<div class="cd-timeline__content text-component">
-<h2>서울디지털대학교</h2>
-<p class="color-contrast-medium">
-1) 멀티미디어학부 게임개발전공 졸업(4년) <br/>
-2) 2006년 학부임원 활동 (전공대표)<br/>
-</p>
-<div class="flex justify-between items-center">
-<span class="cd-timeline__date">2007년 2월</span>
-</div>
-</div> 
-</div> 
-
-
-<div class="cd-timeline__block">
-<div class="cd-timeline__img cd-timeline__img--picture">
-<img src="/img/icon-code.png" alt="회사">
-</div> 
-<div class="cd-timeline__content text-component">
-<h2>SM온라인</h2>
-<p class="color-contrast-medium">
-1) 2년 1개월<br/>
-2) Front-End / Back-End<br/>
-<font style="font-size:1.3rem">
-- 다모임 동창찾기 포털사이트<b>Web</b><br/>
-- SM엔터테인먼트 소속 아티스트 관리 솔루션 <b>Web</b><br/>
-- 아이플 포털사이트<b>Web</b><br/>
-- 자바스크립트 HTML 웹 에디터 <b>Web</b><br/>
-- 엠엔캐스트 동영상 인코딩 프로세서 개발 <b>Web</b><br/>
-</font>
-4) 퇴사 사유: 회사 파산
-</p>
-<div class="flex justify-between items-center">
-<span class="cd-timeline__date">2009년 2월</span>
-</div>
-</div> 
-</div> 
-
-
-
-<div class="cd-timeline__block">
-<div class="cd-timeline__img cd-timeline__img--picture">
-<img src="/img/icon-code.png" alt="회사">
-</div> 
-<div class="cd-timeline__content text-component">
-<h2>Webchon</h2>
-<p class="color-contrast-medium">
-1) 1년 3개월<br/>
-2) 솔루션 개발<br/>
-<font style="font-size:1.3rem">
-- 홈페이지 솔루션 빌더 및 백오피스 <b>Web</b><br/>
-- 온라인 증명서 발급 시스템 <b>ActiveX</b><br/>
-- 서해사랑 커뮤니티 <b>Web</b><br/></font>
-3) 퇴사 사유: 업무 역량 강화<br/>
-
-</p>
-<div class="flex justify-between items-center">
-<span class="cd-timeline__date">2010년 4월</span>
-</div>
-</div> 
-</div> 
-
-
-
-<div class="cd-timeline__block">
-<div class="cd-timeline__img cd-timeline__img--picture">
-<img src="/img/icon-code.png" alt="회사">
-</div> 
-<div class="cd-timeline__content text-component">
-<h2>프리챌</h2>
-<p class="color-contrast-medium">
-1) 10개월<br/>
-2) Front-End / Back-End<br/>
-<font style="font-size:1.3rem">
-- 뉴스 포털사이트 개발 <b>Web</b><br/>
-- KTF 통신사 FreeZone 프리챌 서비스 연동 <b>M-Web</b><br/>
-- 트위터 실시간 확인 TweetShow 개발 <b>Web</b><br/></font>
-3) 퇴사 사유: 회사 파산
-</p>
-<div class="flex justify-between items-center">
-<span class="cd-timeline__date">2011년 3월</span>
-</div>
-</div> 
-</div> 
-
-
-
-<div class="cd-timeline__block">
-<div class="cd-timeline__img cd-timeline__img--picture">
-<img src="/img/icon-code.png" alt="회사">
-</div> 
-<div class="cd-timeline__content text-component">
-<h2>캔즈플렉스</h2>
-<p class="color-contrast-medium">
-1) 1년 10개월<br/>
-2) Front-End / Back-End<br/>
-<font style="font-size:1.3rem">
-- 병원/의원 홈페이지 솔루션 <b>Web</b><br/>
-- 백오피스 <b>Web</b></font><br/>
-3) 사내IT 인프라 관리<br/>
-4) 퇴사 사유: 업무 역량 강화
-</p>
-<div class="flex justify-between items-center">
-<span class="cd-timeline__date">2012년 12월</span>
-</div>
-</div> 
-</div> 
-
-
-
-<div class="cd-timeline__block">
-<div class="cd-timeline__img cd-timeline__img--picture">
-<img src="/img/icon-code.png" alt="회사">
-</div> 
-<div class="cd-timeline__content text-component">
-<h2>프리랜서</h2>
-<p class="color-contrast-medium">
-1) 6년 2개월<br/>
-2) 솔루션 개발<br/>
-<font style="font-size:1.3rem">
-- 어린이집/유치원 식자재 관리 솔루션 <b>Web</b><br/>
-- 모바일 하이브리드 앱 다수<b>Web</b><br/>
-- WEB/MOBILE 솔루션 유지보수 <b>Android</b><br/>
-- 실시간 음악 스트리밍 저작권징수 관리 솔루션 <b>Web</b><br/>
-</font>
-</p>
-<div class="flex justify-between items-center">
-<span class="cd-timeline__date">2019년 2월</span>
-</div>
-</div> 
-</div> 
-
-
-
-<div class="cd-timeline__block">
-<div class="cd-timeline__img cd-timeline__img--picture">
-<img src="/img/icon-code.png" alt="회사">
-</div> 
-<div class="cd-timeline__content text-component">
-<h2>언성데이터 개인사업자</h2>
-<p class="color-contrast-medium">
-1) 1년 11개월 (폐업)<br/>
-<font style="font-size:1.3rem">
-- 중소기업벤처부 창업기업 선정<br/>
-- 운동솔루션 개발 사업 (다이엑트 런칭) <b>Android</b></font>
-</p>
-<div class="flex justify-between items-center">
-<span class="cd-timeline__date">2020년 12월</span>
-</div>
-</div> 
-</div> 
-
-
-<div class="cd-timeline__block">
-<div class="cd-timeline__img cd-timeline__img--picture">
-<img src="/img/icon-code.png" alt="회사">
-</div> 
-<div class="cd-timeline__content text-component">
-<h2>DONGMANI STUDIO</h2>
-<p class="color-contrast-medium">
-1) 솔루션 개발<br/>
-<font style="font-size:1.3rem">
-- <b>Android</b> App (download: 50k+)<br/>
-- 온라인 증명서 발급 시스템 <b>Web</b><br/>
-- 백오피스 <b>Web</b><br/>
-</font>
-</p>
-<div class="flex justify-between items-center">
-<span class="cd-timeline__date">진행중</span>
-</div>
-</div> 
-</div> 
-
-
-
-</div>
-</section> 
-<script src="/js/vertical-timeline.min.js"></script>
