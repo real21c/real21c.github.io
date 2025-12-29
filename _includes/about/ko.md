@@ -322,7 +322,7 @@ a.icon-linkedin{
 						<li class="timeline-item">
 							<div class="timeline-info">
 								<span>Feb,2019~Dec,2020</span>
-								<span style="color:tomato;"><strong>(1</strong> yrs <strong>11</strong> mos)</span>
+								<span style="color:tomato;"><strong>(1</strong> yr <strong>11</strong> mos)</span>
 							</div>
 							<div class="timeline-marker"></div>
 							<div class="timeline-content" style="font-size:1.5rem;">
@@ -347,7 +347,7 @@ a.icon-linkedin{
 						<li class="timeline-item">
 							<div class="timeline-info">
 								<span>Mar,2011~Dec,2012</span>
-								<span style="color:tomato;"><strong>(1</strong> yrs <strong>10</strong> mos)</span>
+								<span style="color:tomato;"><strong>(1</strong> yr <strong>10</strong> mos)</span>
 							</div>
 							<div class="timeline-marker"></div>
 							<div class="timeline-content" style="font-size:1.5rem;">
@@ -371,7 +371,7 @@ a.icon-linkedin{
 						<li class="timeline-item">
 							<div class="timeline-info">
 								<span>Feb,2009~Apr,2010</span>
-								<span style="color:tomato;"><strong>(1</strong> yrs <strong>3</strong> mos)</span>
+								<span style="color:tomato;"><strong>(1</strong> yr <strong>3</strong> mos)</span>
 							</div>
 							<div class="timeline-marker"></div>
 							<div class="timeline-content" style="font-size:1.5rem;">
@@ -382,7 +382,7 @@ a.icon-linkedin{
 						<li class="timeline-item">
 							<div class="timeline-info">
 								<span>Feb,2007~Feb,2009</span>
-								<span style="color:tomato;"><strong>(2</strong> yrs <strong>1</strong> mos)</span>
+								<span style="color:tomato;"><strong>(2</strong> yrs <strong>1</strong> mo)</span>
 							</div>
 							<div class="timeline-marker"></div>
 							<div class="timeline-content" style="font-size:1.5rem;">
@@ -465,7 +465,7 @@ a.icon-linkedin{
 						<li class="timeline-item">
 							<div class="timeline-info">
 								<span>Feb,2019~Dec,2020</span>
-								<span style="color:tomato;"><strong>(1</strong> yrs <strong>11</strong> mos)</span>
+								<span style="color:tomato;"><strong>(1</strong> yr <strong>11</strong> mos)</span>
 							</div>
 							<div class="timeline-marker"></div>
 							<div class="timeline-content" style="font-size:1.5rem;">
@@ -490,7 +490,7 @@ a.icon-linkedin{
 						<li class="timeline-item">
 							<div class="timeline-info">
 								<span>Mar,2011~Dec,2012</span>
-								<span style="color:tomato;"><strong>(1</strong> yrs <strong>10</strong> mos)</span>
+								<span style="color:tomato;"><strong>(1</strong> yr <strong>10</strong> mos)</span>
 							</div>
 							<div class="timeline-marker"></div>
 							<div class="timeline-content" style="font-size:1.5rem;">
@@ -514,7 +514,7 @@ a.icon-linkedin{
 						<li class="timeline-item">
 							<div class="timeline-info">
 								<span>Feb,2009~Apr,2010</span>
-								<span style="color:tomato;"><strong>(1</strong> yrs <strong>3</strong> mos)</span>
+								<span style="color:tomato;"><strong>(1</strong> yr <strong>3</strong> mos)</span>
 							</div>
 							<div class="timeline-marker"></div>
 							<div class="timeline-content" style="font-size:1.5rem;">
@@ -525,7 +525,7 @@ a.icon-linkedin{
 						<li class="timeline-item">
 							<div class="timeline-info">
 								<span>Feb,2007~Feb,2009</span>
-								<span style="color:tomato;"><strong>(2</strong> yrs <strong>1</strong> mos)</span>
+								<span style="color:tomato;"><strong>(2</strong> yrs <strong>1</strong> mo)</span>
 							</div>
 							<div class="timeline-marker"></div>
 							<div class="timeline-content" style="font-size:1.5rem;">
@@ -576,12 +576,12 @@ function durationFromStartToNowHTML(startYear, startMonth) {
 	let html = '(';
 
 	if (years > 0) {
-		html += `<strong>${years}</strong> yrs${years !== 1 ? 's' : ''}`;
+		html += `<strong>${years}</strong> yr${years !== 1 ? 's' : ''}`;
 	}
 
 	if (months > 0) {
 		if (years > 0) html += ' ';
-		html += `<strong>${months}</strong> mos${months !== 1 ? 's' : ''}`;
+		html += `<strong>${months}</strong> mo${months !== 1 ? 's' : ''}`;
 	}
 
 	html += ')';
