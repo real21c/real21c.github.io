@@ -576,12 +576,12 @@ function durationFromStartToNowHTML(startYear, startMonth) {
 	let html = '(';
 
 	if (years > 0) {
-		html += `<strong>${years}</strong> yr${years !== 1 ? 's' : ''}`;
+		html += `<strong>${years}</strong> yrs${years !== 1 ? 's' : ''}`;
 	}
 
 	if (months > 0) {
 		if (years > 0) html += ' ';
-		html += `<strong>${months}</strong> mo${months !== 1 ? 's' : ''}`;
+		html += `<strong>${months}</strong> mos${months !== 1 ? 's' : ''}`;
 	}
 
 	html += ')';
