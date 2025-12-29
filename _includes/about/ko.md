@@ -250,7 +250,7 @@ color:#aaa;
 							<div class="timeline-marker"></div>
 							<div class="timeline-content" style="font-size:1.5rem;">
 								<h4 class="timeline-title">Mobile Developer (Android / iOS)</h4>
-								<p>- 150여 개 이상 고객사 모바일 앱 End-to-End 개발 및 배포 수행</p>
+								<p>- 150+ 고객사 모바일 앱 End-to-End 개발 및 운영</p>
 							</div>
 						</li>
 						<li class="timeline-item">
