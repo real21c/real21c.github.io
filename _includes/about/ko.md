@@ -283,7 +283,7 @@ color:#aaa;
 							<div class="timeline-content" style="font-size:1.5rem;">
 								<h4 class="timeline-title">Software Engineer<br/><span class="timeline-company" style="font-weight:400;">Webchon</span></h4>
 								<p>- 매장 음악 편성 및 실시간 스트리밍 웹서비스 개발</p>
-								<p>- 익명성 공익제보 및 청탁금지법 위반 신고 솔루션 개발</p>
+								<p>- 익명 공익제보 및 청탁금지법 위반 신고 솔루션 개발</p>
 								<p>- 고위공직자 부패 위험성 진단 설문 솔루션 개발</p>
 							</div>
 						</li>
@@ -396,7 +396,7 @@ color:#aaa;
 							<div class="timeline-content" style="font-size:1.5rem;">
 								<h4 class="timeline-title">Software Engineer<br/><span class="timeline-company" style="font-weight:400;">Webchon</span></h4>
 								<p>- 매장 음악 편성 및 실시간 스트리밍 웹서비스 개발</p>
-								<p>- 익명성 공익제보/청탁금지법 위반 신고 솔루션 개발</p>
+								<p>- 익명 공익제보/청탁금지법 위반 신고 솔루션 개발</p>
 								<p>- 고위공직자 부패 위험성 진단 설문 솔루션 개발</p>
 							</div>
 						</li>
