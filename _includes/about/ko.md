@@ -277,7 +277,10 @@ a.icon-linkedin{
 							<div class="timeline-content"><h2 class="timeline-title">현재</h2></div>
 						</li>
 						<li class="timeline-item">
-							<div class="timeline-info"><span>Dec,2020 ~ Now</span></div>
+							<div class="timeline-info">
+								<span>Dec,2020~Now</span>
+								<span class="calc_my" style="color:tomato;"></span>
+							</div>
 							<div class="timeline-marker"></div>
 							<div class="timeline-content" style="font-size:1.5rem;">
 								<h4 class="timeline-title">Software Engineer (Full-Stack)</h4>
@@ -288,7 +291,10 @@ a.icon-linkedin{
 							</div>
 						</li>
 						<li class="timeline-item">
-							<div class="timeline-info"><span>Dec,2020 ~ Now</span></div>
+							<div class="timeline-info">
+								<span>Dec,2020~Now</span>
+								<span class="calc_my" style="color:tomato;"></span>
+							</div>
 							<div class="timeline-marker"></div>
 							<div class="timeline-content" style="font-size:1.5rem;">
 								<h4 class="timeline-title">Mobile Developer (Android / iOS)</h4>
@@ -296,7 +302,10 @@ a.icon-linkedin{
 							</div>
 						</li>
 						<li class="timeline-item">
-							<div class="timeline-info"><span>Dec,2020 ~ Now</span></div>
+							<div class="timeline-info">
+								<span>Dec,2020~Now</span>
+								<span class="calc_my" style="color:tomato;"></span>
+							</div>
 							<div class="timeline-marker"></div>
 							<div class="timeline-content" style="font-size:1.5rem;">
 								<h4 class="timeline-title">DevOps Engineer</h4>
@@ -413,6 +422,7 @@ a.icon-linkedin{
 						<li class="timeline-item">
 							<div class="timeline-info">
 								<span>Dec,2020~Now</span>
+								<span class="calc_my" style="color:tomato;"></span>
 							</div>
 							<div class="timeline-marker"></div>
 							<div class="timeline-content" style="font-size:1.5rem;">
@@ -426,6 +436,7 @@ a.icon-linkedin{
 						<li class="timeline-item">
 							<div class="timeline-info">
 								<span>Dec,2020~Now</span>
+								<span class="calc_my" style="color:tomato;"></span>
 							</div>
 							<div class="timeline-marker"></div>
 							<div class="timeline-content" style="font-size:1.5rem;">
@@ -436,6 +447,7 @@ a.icon-linkedin{
 						<li class="timeline-item">
 							<div class="timeline-info">
 								<span>Dec,2020~Now</span>
+								<span class="calc_my" style="color:tomato;"></span>
 							</div>
 							<div class="timeline-marker"></div>
 							<div class="timeline-content" style="font-size:1.5rem;">
@@ -452,7 +464,7 @@ a.icon-linkedin{
 						</li>
 						<li class="timeline-item">
 							<div class="timeline-info">
-								<span>Feb,2019 ~ Dec,2020</span>
+								<span>Feb,2019~Dec,2020</span>
 								<span style="color:tomato;"><strong>(1</strong> yrs <strong>11</strong> mos)</span>
 							</div>
 							<div class="timeline-marker"></div>
@@ -548,3 +560,34 @@ a.icon-linkedin{
 	</section>
 </article>
 </div>
+<script type="text/javascript">
+function durationFromStartToNowHTML(startYear, startMonth) {
+	const now = new Date();
+	const endYear = now.getFullYear();
+	const endMonth = now.getMonth() + 1; // 0-based → 1-based
+
+	const totalMonths =
+	(endYear - startYear) * 12 +
+	(endMonth - startMonth) + 1; // inclusive
+
+	const years = Math.floor(totalMonths / 12);
+	const months = totalMonths % 12;
+
+	let html = '(';
+
+	if (years > 0) {
+		html += `<strong>${years}</strong> yr${years !== 1 ? 's' : ''}`;
+	}
+
+	if (months > 0) {
+		if (years > 0) html += ' ';
+		html += `<strong>${months}</strong> mo${months !== 1 ? 's' : ''}`;
+	}
+
+	html += ')';
+
+	return html;
+}
+
+$('.calc_my').html(durationFromStartToNowHTML(2020, 12));
+</script>
