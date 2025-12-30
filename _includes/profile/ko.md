@@ -401,9 +401,9 @@ a.icon-linkedin{
 							<div class="timeline-marker"></div>
 							<div class="timeline-content" style="font-size:1.5rem;">
 								<h4 class="timeline-title">Web Application Developer<br/><span class="timeline-company" style="font-weight:400;">(주)도움</span></h4>
-								<p>- 사내 커뮤니티 웹서비스 개발 (인트라넷, 전자결제)</p>
-								<p>- 사내 생산성 향상 기여 업무 지원 시스템 개발 (ERP, BOM, 금형현황판)</p>
-								<p>- 사내 업무 자동화 및 정보 공유 시스템 개발 (워크플로우 엔진, 지식관리)</p>
+								<p>- 전자결재 웹 서비스 및 사내 커뮤니티 설계·개발</p>
+								<p>- 제조업 ERP 기반 자원 통합 관리 시스템 기획·설계·개발·운영 전 과정 담당</p>
+								<p>- 지식 공유 시스템 및 워크플로우 엔진 설계·개발</p>
 							</div>
 						</li>
 						<li class="timeline-item">
@@ -546,9 +546,9 @@ a.icon-linkedin{
 							<div class="timeline-marker"></div>
 							<div class="timeline-content" style="font-size:1.5rem;">
 								<h4 class="timeline-title">Web Application Developer<br/><span class="timeline-company" style="font-weight:400;">(주)도움</span></h4>
-								<p>- 사내 커뮤니티 웹서비스 개발</p>
-								<p>- 사내 생산성 향상 기여 업무 지원 시스템 개발</p>
-								<p>- 사내 업무 자동화 및 정보 공유 시스템 개발</p>
+								<p>- 전자결재 웹 서비스 및 사내 커뮤니티 설계·개발</p>
+								<p>- 제조업 ERP 기반 자원 통합 관리 시스템 기획·설계·개발·운영 전 과정 담당</p>
+								<p>- 지식 공유 시스템 및 워크플로우 엔진 설계·개발</p>
 							</div>
 						</li>
 						<li class="timeline-item">

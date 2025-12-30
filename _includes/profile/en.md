@@ -392,9 +392,9 @@ a.icon-linkedin{
 							<div class="timeline-marker"></div>
 							<div class="timeline-content" style="font-size:1.5rem;">
 								<h4 class="timeline-title">Web Application Developer<br/><span class="timeline-company" style="font-weight:400;">DOM Co., Ltd.</span></h4>
-								<p>- Development of an in-house community web service (intranet, electronic payment)</p>
-								<p>- Development of a business support system that contributes to improving in-house productivity (ERP, BOM, mold status board)</p>
-								<p>- Development of an in-house business automation and information sharing system (workflow engine, knowledge management)</p>
+								<p>- Designed and developed an electronic approval web service and internal community platform</p>
+								<p>- Led the full lifecycle (planning, design, development, and operation) of an ERP-based integrated resource management system for manufacturing</p>
+								<p>- Designed and developed a knowledge-sharing system and workflow engine</p>
 							</div>
 						</li>
 						<li class="timeline-item">
