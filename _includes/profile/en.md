@@ -255,7 +255,6 @@ a.icon-linkedin{
 					<ul class="timeline">
 						<li class="timeline-item period">
 							<div class="timeline-info"></div>
-							<div class="timeline-marker"></div>
 							<div class="timeline-content"><h2 class="timeline-title">Present</h2></div>
 						</li>
 						<li class="timeline-item">
