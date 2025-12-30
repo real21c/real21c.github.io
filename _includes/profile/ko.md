@@ -217,22 +217,9 @@ color:#aaa;
 	line-height:initial;
 }
 
-.author-info {
-    margin: 20px auto 40px;
-}
 
 .author-title {
     font-size: 4rem;
-}
-
-.author-meta {
-    color: #9EABB3;
-    font-size: 1.6rem;
-}
-
-.author-meta a {
-    margin-top: 10px;
-    color: #9EABB3;
 }
 
 a.icon-linkedin{
@@ -246,27 +233,48 @@ a.icon-linkedin{
 		<div class="md-card no-border desktop-only"><p>
 		안녕하세요.<br/>
 		일상과 업무의 문제를 IT 기술로 해결하고, 더 나은 개발자가 되기 위해 꾸준히 고민하고 있습니다.<br/>
-		프로젝트 및 수상 경력의 상세 내용은 <a href="https://linkedin.com/in/real21c/" rel="me" itemprop="sameAs" class="icon-linkedin" target="_blank">LinkedIn</a> 에서 확인하실 수 있습니다.<br/>
+		프로젝트 및 수상 경력의 상세 내용은
+		<a href="https://linkedin.com/in/real21c/"
+		   target="_blank"
+		   rel="me"
+		   itemprop="sameAs"
+		   aria-label="LinkedIn"
+		   style="display:inline-flex; align-items:center; gap:4px; vertical-align:middle; text-decoration:none;">
+			<svg width="24" height="24"
+			     viewBox="0 0 16 16"
+			     xmlns="http://www.w3.org/2000/svg"
+			     style="display:block;">
+				<path fill="#0A66C2"
+				      d="M12.225 12.225h-1.778V9.44c0-.664-.012-1.519-.925-1.519-.926 0-1.068.724-1.068 1.47v2.834H6.676V6.498h1.707v.783h.024c.348-.594.996-.95 1.684-.925 1.802 0 2.135 1.185 2.135 2.728l-.001 3.14zM4.67 5.715a1.037 1.037 0 01-1.032-1.031c0-.566.466-1.032 1.032-1.032.566 0 1.031.466 1.032 1.032 0 .566-.466 1.032-1.032 1.032zm.889 6.51h-1.78V6.498h1.78v5.727zM13.11 2H2.885A.88.88 0 002 2.866v10.268a.88.88 0 00.885.866h10.226a.882.882 0 00.889-.866V2.865a.88.88 0 00-.889-.864z"/>
+			</svg>
+			LinkedIn
+		</a>
+		프로필 에서 확인하실 수 있습니다.<br/>
 		감사합니다.</p></div>
 
 		<div class="md-card no-border mobile-only"><p>
 		안녕하세요.<br/>
 		일상과 업무의 문제를 IT 기술로 해결하고,<br/>
-		더 나은 개발자가 되기 위해 꾸준히 고민하고 있습니다.<br/>
-		프로젝트 및 수상 경력의 상세 내용은<br/>
-		<a href="https://linkedin.com/in/real21c/" rel="me" itemprop="sameAs" class="icon-linkedin" target="_blank">LinkedIn</a> 에서 확인하실 수 있습니다.<br/>
+		더 나은 개발자가 되기 위해 계속 고민하고 있습니다.<br/>
+		프로젝트 및 수상 경력의 상세 내용은
+		<a href="https://linkedin.com/in/real21c/"
+		   target="_blank"
+		   rel="me"
+		   itemprop="sameAs"
+		   aria-label="LinkedIn"
+		   style="display:inline-flex; align-items:center; gap:4px; vertical-align:middle; text-decoration:none;">
+			<svg width="24" height="24"
+			     viewBox="0 0 16 16"
+			     xmlns="http://www.w3.org/2000/svg"
+			     style="display:block;">
+				<path fill="#0A66C2"
+				      d="M12.225 12.225h-1.778V9.44c0-.664-.012-1.519-.925-1.519-.926 0-1.068.724-1.068 1.47v2.834H6.676V6.498h1.707v.783h.024c.348-.594.996-.95 1.684-.925 1.802 0 2.135 1.185 2.135 2.728l-.001 3.14zM4.67 5.715a1.037 1.037 0 01-1.032-1.031c0-.566.466-1.032 1.032-1.032.566 0 1.031.466 1.032 1.032 0 .566-.466 1.032-1.032 1.032zm.889 6.51h-1.78V6.498h1.78v5.727zM13.11 2H2.885A.88.88 0 002 2.866v10.268a.88.88 0 00.885.866h10.226a.882.882 0 00.889-.866V2.865a.88.88 0 00-.889-.864z"/>
+			</svg>
+			LinkedIn
+		</a>
+		프로필 에서 확인하실 수 있습니다.<br/>
 		감사합니다.</p></div>
 
-		<div class="author-info">
-			<div class="author-meta">
-				<span style="display:inline-flex; gap:1px;">
-					<svg width="24" height="24" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" fill="none">
-					<path fill="#0A66C2" d="M12.225 12.225h-1.778V9.44c0-.664-.012-1.519-.925-1.519-.926 0-1.068.724-1.068 1.47v2.834H6.676V6.498h1.707v.783h.024c.348-.594.996-.95 1.684-.925 1.802 0 2.135 1.185 2.135 2.728l-.001 3.14zM4.67 5.715a1.037 1.037 0 01-1.032-1.031c0-.566.466-1.032 1.032-1.032.566 0 1.031.466 1.032 1.032 0 .566-.466 1.032-1.032 1.032zm.889 6.51h-1.78V6.498h1.78v5.727zM13.11 2H2.885A.88.88 0 002 2.866v10.268a.88.88 0 00.885.866h10.226a.882.882 0 00.889-.866V2.865a.88.88 0 00-.889-.864z"/>
-					</svg>
-					<span><a href="https://linkedin.com/in/real21c/" rel="me" itemprop="sameAs" class="icon-linkedin" target="_blank">LinkedIn</a> </span>
-				</span>				
-			</div>                                  
-		</div>
 
 		<div class="timeline-container" style="padding: 0 0; margin-top:0;">
 			<div class="container-fluid">
