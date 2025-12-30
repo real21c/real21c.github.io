@@ -261,8 +261,7 @@ a.icon-linkedin{
 			</svg>
 			LinkedIn
 		</a> profile.<br/>
-		Thank you.<br/>
-</div>
+		Thank you.</p></div>
 
 		<div class="timeline-container" style="padding: 0 0; margin-top:0;">
 			<div class="container-fluid">
