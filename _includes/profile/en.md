@@ -246,7 +246,7 @@ a.icon-linkedin{
 		<div class="md-card no-border"><p>
 		Hello.<br/>
 		I'm constantly striving to solve daily and work-related problems with IT technology and become a better developer.<br/>
-		You can find more information about my career and projects on my <a href="https://linkedin.com/in/real21c/" rel="me" itemprop="sameAs" class="icon-linkedin" target="_blank">LinkedIn</a> profile.<br/>
+		Details of my projects and awards can be found on my <a href="https://linkedin.com/in/real21c/" rel="me" itemprop="sameAs" class="icon-linkedin" target="_blank">LinkedIn</a> profile.<br/>
 		Thank you.</p></div>
 
 		<div class="author-info">
