@@ -230,7 +230,7 @@ a.icon-linkedin{
 <div class="profile">
 <article class="single-post">                
 	<section class="post-content">           
-		<div class="md-card no-border desktop-only"><p>
+		<div class="md-card no-border desktop-only"><p style="margin-bottom:0px;">
 		안녕하세요.<br/>
 		일상과 업무의 문제를 IT 기술로 해결하고, 더 나은 개발자가 되기 위해 꾸준히 고민하고 있습니다.<br/>
 		프로젝트 및 수상 경력의 상세 내용은
@@ -252,11 +252,11 @@ a.icon-linkedin{
 		프로필 에서 확인하실 수 있습니다.<br/>
 		감사합니다.</p></div>
 
-		<div class="md-card no-border mobile-only"><p>
+		<div class="md-card no-border mobile-only"><p style="margin-bottom:0px;">
 		안녕하세요.<br/>
 		일상과 업무의 문제를 IT 기술로 해결하고,<br/>
 		더 나은 개발자가 되기 위해 계속 고민하고 있습니다.<br/>
-		프로젝트 및 수상 경력의 상세 내용은
+		프로젝트 및 수상 경력의 상세 내용은<br/>
 		<a href="https://linkedin.com/in/real21c/"
 		   target="_blank"
 		   rel="me"
@@ -282,8 +282,7 @@ a.icon-linkedin{
 					<ul class="timeline desktop-only">
 						<li class="timeline-item period">
 							<div class="timeline-info"></div>
-							<div class="timeline-marker"></div>
-							<div class="timeline-content"><h2 class="timeline-title">현재</h2></div>
+							<div class="timeline-content" style="padding-top:0px;"><h2 class="timeline-title">현재</h2></div>
 						</li>
 						<li class="timeline-item">
 							<div class="timeline-info">
@@ -427,7 +426,7 @@ a.icon-linkedin{
 						<li class="timeline-item period">
 							<div class="timeline-info"></div>
 							<div class="timeline-marker"></div>
-							<div class="timeline-content"><h2 class="timeline-title">현재</h2></div>
+							<div class="timeline-content" style="padding-top:0px;"><h2 class="timeline-title">현재</h2></div>
 						</li>
 						<li class="timeline-item">
 							<div class="timeline-info">
