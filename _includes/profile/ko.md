@@ -244,15 +244,12 @@ a.icon-linkedin{
 <article class="single-post">                
 	<section class="post-content">           
 		<div class="md-card no-border desktop-only"><p>
-		일상과 업무에 새로운 가치를 더하는 데 깊은 관심을 가지고 있으며,<br/>
-		생활 속 불편한 문제를 IT 기술로 개선하고 해결하는 것을 즐기는 개발자입니다.<br/>
+		일상과 업무의 문제를 IT 기술로 해결하고, 더 나은 개발자가 되기 위해 꾸준히 고민합니다.<br/>
 		자세한 경력과 프로젝트는 <a href="https://linkedin.com/in/real21c/" rel="me" itemprop="sameAs" class="icon-linkedin" target="_blank">LinkedIn</a> 프로필에서 확인하실 수 있습니다.</p></div>
 
 		<div class="md-card no-border mobile-only"><p>
-		일상과 업무에 새로운 가치를 더하는 데<br/>
-		깊은 관심을 가지고 있으며, 생활 속 불편한 문제를 <br/>
-		IT 기술로 개선하고 해결하는 것을<br/>
-		즐기는 개발자입니다.<br/>
+		일상과 업무의 문제를 IT 기술로 해결하고,<br/>
+		더 나은 개발자가 되기 위해 꾸준히 고민합니다.<br/>
 		자세한 경력과 프로젝트는 <a href="https://linkedin.com/in/real21c/" rel="me" itemprop="sameAs" class="icon-linkedin" target="_blank">LinkedIn</a> 프로필에서<br/>
 		확인하실 수 있습니다.</p></div>
 
