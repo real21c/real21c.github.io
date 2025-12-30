@@ -244,9 +244,10 @@ a.icon-linkedin{
 <article class="single-post">                
 	<section class="post-content">           
 		<div class="md-card no-border"><p>
-		I'm a developer with a deep interest in adding new value to my daily life and work.<br/>
-		I enjoy using IT technology to improve and solve inconvenient problems in everyday life.<br/>
-		You can find more information about my career and projects on my <a href="https://linkedin.com/in/real21c/" rel="me" itemprop="sameAs" class="icon-linkedin" target="_blank">LinkedIn</a> profile.</p></div>
+		Hello.<br/>
+		I'm constantly striving to solve daily and work-related problems with IT technology and become a better developer.<br/>
+		You can find more information about my career and projects on my <a href="https://linkedin.com/in/real21c/" rel="me" itemprop="sameAs" class="icon-linkedin" target="_blank">LinkedIn</a> profile.<br/>
+		Thank you.</p></div>
 
 		<div class="author-info">
 			<div class="author-meta">
@@ -396,9 +397,6 @@ a.icon-linkedin{
 								<p>- Led the full lifecycle (planning, design, development, and operation) of an ERP-based integrated resource management system for manufacturing</p>
 								<p>- Designed and developed a knowledge-sharing system and workflow engine</p>
 							</div>
-						</li>
-						<li class="timeline-item">
-						&nbsp;
 						</li>
 					</ul>
 				</div>

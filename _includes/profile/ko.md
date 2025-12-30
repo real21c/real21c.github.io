@@ -244,14 +244,18 @@ a.icon-linkedin{
 <article class="single-post">                
 	<section class="post-content">           
 		<div class="md-card no-border desktop-only"><p>
-		일상과 업무의 문제를 IT 기술로 해결하고, 더 나은 개발자가 되기 위해 꾸준히 고민합니다.<br/>
-		자세한 경력과 프로젝트는 <a href="https://linkedin.com/in/real21c/" rel="me" itemprop="sameAs" class="icon-linkedin" target="_blank">LinkedIn</a> 프로필에서 확인하실 수 있습니다.</p></div>
+		안녕하세요.<br/>
+		일상과 업무의 문제를 IT 기술로 해결하고, 더 나은 개발자가 되기 위해 꾸준히 고민하고 있습니다.<br/>
+		자세한 경력과 프로젝트는 <a href="https://linkedin.com/in/real21c/" rel="me" itemprop="sameAs" class="icon-linkedin" target="_blank">LinkedIn</a> 프로필에서 확인하실 수 있습니다.<br/>
+		감사합니다.</p></div>
 
 		<div class="md-card no-border mobile-only"><p>
+		안녕하세요.<br/>
 		일상과 업무의 문제를 IT 기술로 해결하고,<br/>
-		더 나은 개발자가 되기 위해 꾸준히 고민합니다.<br/>
+		더 나은 개발자가 되기 위해 꾸준히 있습니다.<br/>
 		자세한 경력과 프로젝트는 <a href="https://linkedin.com/in/real21c/" rel="me" itemprop="sameAs" class="icon-linkedin" target="_blank">LinkedIn</a> 프로필에서<br/>
-		확인하실 수 있습니다.</p></div>
+		확인하실 수 있습니다.<br/>
+		감사합니다.</p></div>
 
 		<div class="author-info">
 			<div class="author-meta">
@@ -547,9 +551,6 @@ a.icon-linkedin{
 								<p>- ERP 시스템 기획·설계·개발·운영 전 과정 담당</p>
 								<p>- 지식 공유 시스템 및 워크플로우 엔진 설계·개발</p>
 							</div>
-						</li>
-						<li class="timeline-item">
-						&nbsp;
 						</li>
 					</ul>
 
