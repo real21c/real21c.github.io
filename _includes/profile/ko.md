@@ -249,11 +249,11 @@ a.icon-linkedin{
 		자세한 경력과 프로젝트는 <a href="https://linkedin.com/in/real21c/" rel="me" itemprop="sameAs" class="icon-linkedin" target="_blank">LinkedIn</a> 프로필에서 확인하실 수 있습니다.</p></div>
 
 		<div class="md-card no-border mobile-only"><p>
-		일상과 업무에 새로운 가치를 더하는 데
-		깊은 관심을 가지고 있으며,<br/>
-		생활 속 불편한 문제를 IT 기술로 개선하고 
-		해결하는 것을 즐기는 개발자입니다.<br/>
-		자세한 경력과 프로젝트는 <a href="https://linkedin.com/in/real21c/" rel="me" itemprop="sameAs" class="icon-linkedin" target="_blank">LinkedIn</a> 프로필에서 
+		일상과 업무에 새로운 가치를 더하는 데<br/>
+		깊은 관심을 가지고 있으며, 생활 속 불편한 문제를 <br/>
+		IT 기술로 개선하고 해결하는 것을<br/>
+		즐기는 개발자입니다.<br/>
+		자세한 경력과 프로젝트는 <a href="https://linkedin.com/in/real21c/" rel="me" itemprop="sameAs" class="icon-linkedin" target="_blank">LinkedIn</a> 프로필에서<br/>
 		확인하실 수 있습니다.</p></div>
 
 		<div class="author-info">
@@ -521,7 +521,7 @@ a.icon-linkedin{
 							<div class="timeline-content" style="font-size:1.5rem;">
 								<h4 class="timeline-title">Web Application Developer<br/><span class="timeline-company" style="font-weight:400;">Webchon</span></h4>
 								<p>- 공통 구조 기반 홈페이지 솔루션 빌더 개발</p>
-								<p>- 사내 백오피스 개발/구축을 통한 서비스 운영 상태 관리 및 효율성 개선</p>
+								<p>- 백오피스 개발/구축을 통한 운영 효율성 개선</p>
 							</div>
 						</li>
 						<li class="timeline-item">
@@ -547,7 +547,7 @@ a.icon-linkedin{
 							<div class="timeline-content" style="font-size:1.5rem;">
 								<h4 class="timeline-title">Web Application Developer<br/><span class="timeline-company" style="font-weight:400;">(주)도움</span></h4>
 								<p>- 전자결재 웹 서비스 및 사내 커뮤니티 설계·개발</p>
-								<p>- 제조업 ERP 기반 자원 통합 관리 시스템 기획·설계·개발·운영 전 과정 담당</p>
+								<p>- ERP 시스템 기획·설계·개발·운영 전 과정 담당</p>
 								<p>- 지식 공유 시스템 및 워크플로우 엔진 설계·개발</p>
 							</div>
 						</li>
