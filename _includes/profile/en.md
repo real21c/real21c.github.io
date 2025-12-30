@@ -296,7 +296,7 @@ a.icon-linkedin{
 						<li class="timeline-item period">
 							<div class="timeline-info"></div>
 							<div class="timeline-marker"></div>
-							<div class="timeline-content"><h2 class="timeline-title" style="line-height:0;>Past</h2></div>
+							<div class="timeline-content"><h2 class="timeline-title" style="line-height:0;">Past</h2></div>
 						</li>
 						<li class="timeline-item">
 							<div class="timeline-info">
