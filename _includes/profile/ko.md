@@ -320,12 +320,11 @@ a.icon-linkedin{
 								<p>- FDS 기반 시스템 이상 탐지 모니터링 솔루션 개발 (사내 적용)</p>
 							</div>
 						</li>
+					</ul>
+					<ul class="timeline desktop-only">
 						<li class="timeline-item period">
 							<div class="timeline-info"></div>
-							<div class="timeline-marker"></div>
-							<div class="timeline-content">
-							<h2 class="timeline-title">과거</h2>
-							</div>
+							<div class="timeline-content" style="padding-top:0px;"><h2 class="timeline-title">과거</h2></div>
 						</li>
 						<li class="timeline-item">
 							<div class="timeline-info">

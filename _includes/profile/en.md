@@ -307,9 +307,10 @@ a.icon-linkedin{
 								<p>- Development of an FDS-based system anomaly detection monitoring solution (for in-house application)</p>
 							</div>
 						</li>
+					</ul>
+					<ul class="timeline desktop-only">
 						<li class="timeline-item period">
 							<div class="timeline-info"></div>
-							<div class="timeline-marker"></div>
 							<div class="timeline-content" style="padding-top:0px;"><h2 class="timeline-title" style="line-height:0;">Past</h2></div>
 						</li>
 						<li class="timeline-item">
