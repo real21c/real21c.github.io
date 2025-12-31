@@ -324,7 +324,7 @@ a.icon-linkedin{
 					<ul class="timeline desktop-only">
 						<li class="timeline-item period">
 							<div class="timeline-info"></div>
-							<div class="timeline-content" style="padding-top:0px;"><h2 class="timeline-title">과거</h2></div>
+							<div class="timeline-content" style="padding-top:0px;"><h2 class="timeline-title" style="line-height:0;">과거</h2></div>
 						</li>
 						<li class="timeline-item">
 							<div class="timeline-info">
@@ -461,7 +461,7 @@ a.icon-linkedin{
 						</li>
 						<li class="timeline-item period">
 							<div class="timeline-info"></div>
-							<div class="timeline-content" style="padding-top:0px"><h2 class="timeline-title">과거</h2></div>
+							<div class="timeline-content" style="padding-top:0px"><h2 class="timeline-title" style="line-height:0;">과거</h2></div>
 						</li>
 						<li class="timeline-item">
 							<div class="timeline-info">
