@@ -414,9 +414,6 @@ a.icon-linkedin{
 								<p>- 지식 공유 시스템 및 워크플로우 엔진 설계·개발</p>
 							</div>
 						</li>
-						<li class="timeline-item">
-						&nbsp;
-						</li>
 					</ul>
 
 
