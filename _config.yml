@@ -7,7 +7,7 @@ email: real21c@gmail.com
 description: "트레일러닝, 일상, 개발이야기, 달리기, 마라톤, TrailRunning, Development, Running, Marathon"
 keyword: "트레일러닝, 일상, 개발이야기, 달리기, 마라톤, TrailRunning, Development, Running, Marathon"
 url: "https://real21c.github.io"              # your host, for absolute URL
-baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
+baseurl: "/profile"                             # for example, '/blog' if your blog hosted on 'host/blog'
 
 # Publish posts or collection documents with a future date.
 future: true
