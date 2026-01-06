@@ -12,6 +12,7 @@ baseurl: ""                             # for example, '/blog' if your blog host
 # Publish posts or collection documents with a future date.
 future: true
 
+
 # SNS settings
 RSS: true
 github_username:    real21c
@@ -20,9 +21,7 @@ twitter_username:
 linkedin_username:  real21c
 
 
-
 # Build settings
-# from 2016, 'pygments' is unsupported on GitHub Pages. Use 'rouge' for highlighting instead.
 highlighter: rouge
 permalink: /:title/
 paginate: 10
@@ -32,13 +31,11 @@ anchorjs: true                          # if you want to customize anchor. check
 #timezone: CN  
 
 
-
 # Gems
 # from PR#40, to support local preview for Jekyll 3.0
 # make sure you have this gem installed
 # `$ gem install jekyll-paginate`
 plugins: [jekyll-paginate]
-
 
 
 # Markdown settings

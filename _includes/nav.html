@@ -20,9 +20,15 @@
             <div id="huxblog_navbar">
                 <div class="navbar-collapse">
                     <ul class="nav navbar-nav" style="width:640px;margin:0 auto;float:initial;">
-                        <li>
-                            <a href="{{ site.baseurl }}/">전체</a>
-                        </li>
+                        <li><a href="{{ site.baseurl }}/">전체</a></li>
+                        <li><a href="/profile/">프로필</a></li>
+                        <li><a href="/trail/">트레일러닝</a></li>
+                        <li><a href="/dev/">개발일지</a></li>
+						<li><a href="/day/">일상</a></li>
+                        <li><a href="/review/">리뷰</a></li>
+                        <li><a href="/summary/">결산</a></li>
+
+						{% comment %}
                         {% for page in site.pages %}
                         {% if page.title and page.hide-in-nav != true %}
                         <li>
@@ -30,6 +36,7 @@
                         </li>
                         {% endif %}
                         {% endfor %}
+						{% endcomment %}
                         <li class="search-icon">
                             <a href="javascript:void(0)">
                                 <i class="fa fa-search"></i>
