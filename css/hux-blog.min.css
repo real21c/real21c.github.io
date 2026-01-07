@@ -1915,6 +1915,11 @@
     font-size: 0.85em;
     color: #999;
   }
+
+  .post-title{
+	  margin-top:0px;
+	  margin-bottom:0px;
+  }
 }
 
 .post-date{
