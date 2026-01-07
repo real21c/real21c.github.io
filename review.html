@@ -26,49 +26,46 @@ https://github.com/kitian616/jekyll-TeXt-theme
 			</div>
             <!-- Article List -->
 			<div class="mini-post-list js-result">
-			{%- assign _sorted_list = site.posts -%}
-			{%- assign _sorted_list = _sorted_list | sort: 'date' -%}
-			{%- assign _sorted_list = _sorted_list | reverse -%}
-
+			{%- assign _sorted_list = site.posts | sort: 'date' | reverse -%}
 
 			{%- for _article in _sorted_list -%}
-				{%- assign _tags = '' -%}
-				{%- for _tag in _article.tags -%}
-					{%- assign _tag_encode = _tag | strip | url_encode -%}
-					{%- if forloop.last -%}
-						{%- assign _tags = _tags | append: _tag_encode -%}
-					{%- else -%}
-						{%- assign _tags = _tags | append: _tag_encode | append: ',' -%}
-					{%- endif -%}
-				{%- endfor -%}
+			  {%- if _article.tags contains "개발일지" -%}
+				<div class="post-preview item" data-tags="개발일지">
+				  <a href="{{ _article.url | prepend: site.baseurl }}">
+					{% assign dow = _article.date | date: "%a" %}
+					<span class="post-date" style="font-weight:bold;
+					{% if dow == 'Sat' %}
+					  color: blue;
+					{% elsif dow == 'Sun' %}
+					  color: red;
+					{% endif %}
+					">
+					  {{ _article.date | date: "%Y-%m-%d" }}
+					  ({{
+						dow
+						| replace: "Mon", "월"
+						| replace: "Tue", "화"
+						| replace: "Wed", "수"
+						| replace: "Thu", "목"
+						| replace: "Fri", "금"
+						| replace: "Sat", "토"
+						| replace: "Sun", "일"
+					  }})
+					</span>
+					<span class="post-title">
+					  {{ _article.title }}
+					</span>
 
-			{% comment %} group by year {% endcomment %}
-			{%- assign _currentdate = _article.date | date: '%Y' -%}
-			{%- if _currentdate != _date -%}
-				{%- unless forloop.first -%}</section>{%- endunless -%}
-				<section>
-				<span class="fa listing-seperator">
-					<span class="tag-text">{{ _currentdate }}</span>
-				</span>
-				{%- assign _date = _currentdate -%}
-			{%- endif -%}
-				{% if _tags == "%EB%A6%AC%EB%B7%B0" %}
-				<div class="post-preview item" data-tags="{{ _tags }}">
-				    <a href="{{ _article.url | prepend: site.baseurl }}">
-				        <h2 class="post-title">
-                            {{ _article.title }}
-				        </h2>
-				        {% if _article.subtitle %}
-				        <h3 class="post-subtitle">
-				            {{ _article.subtitle }}
-				        </h3>
-				        {% endif %}
-				    </a>
-					<hr>
+					{% if _article.subtitle %}
+					  <span class="post-subtitle">
+						{{ _article.subtitle }}
+					  </span>
+					{% endif %}
+				  </a>
+				  <hr>
 				</div>
-				{% endif %}
-			{%- if forloop.last -%}</section>{%- endif -%}
-			{% endfor %}
+			  {%- endif -%}
+			{%- endfor -%}
 			</div>
 		</div>
 	</div>
