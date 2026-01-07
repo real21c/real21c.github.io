@@ -34,7 +34,8 @@ https://github.com/kitian616/jekyll-TeXt-theme
 				  <a href="{{ _article.url | prepend: site.baseurl }}">
 				    {% assign days = "일,월,화,수,목,금,토" | split: "," %}
 					<span class="post-date" style="font-weight:bold;">
-					  {{ _article.date | date: "%Y-%m-%d (%a)" }}
+					  {{ _article.date | date: "%Y-%m-%d" }}
+					  ({{ days[_article.date | date: "%w" | plus: 0] }})
 					</span>
 					<span class="post-title">
 					  {{ _article.title }}
