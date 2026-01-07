@@ -34,17 +34,7 @@ https://github.com/kitian616/jekyll-TeXt-theme
 				  <a href="{{ _article.url | prepend: site.baseurl }}">
 				    <span class="post-date" style="font-weight:bold;">
 					  {{ _article.date | date: "%Y-%m-%d" }}
-					  (
-					  {% case _article.date | date: "%w" %}
-						{% when "0" %}일
-						{% when "1" %}월
-						{% when "2" %}화
-						{% when "3" %}수
-						{% when "4" %}목
-						{% when "5" %}금
-						{% when "6" %}토
-					  {% endcase %}
-					  )
+					  ({% case _article.date | date: "%w" %}{% when "0" %}일{% when "1" %}월{% when "2" %}화{% when "3" %}수{% when "4" %}목{% when "5" %}금{% when "6" %}토{% endcase %})
 					</span>
 					<span class="post-title">
 					  {{ _article.title }}
