@@ -26,40 +26,31 @@ https://github.com/kitian616/jekyll-TeXt-theme
 			</div>
             <!-- Article List -->
 			<div class="mini-post-list js-result">
-			{%- assign _sorted_list = site.posts -%}
-			{%- assign _sorted_list = _sorted_list | sort: 'date' -%}
-			{%- assign _sorted_list = _sorted_list | reverse -%}
-
+			{%- assign _sorted_list = site.posts | sort: 'date' | reverse -%}
 
 			{%- for _article in _sorted_list -%}
-				{%- assign _tags = '' -%}
-				{%- for _tag in _article.tags -%}
-					{%- assign _tag_encode = _tag | strip | url_encode -%}
-					{%- if forloop.last -%}
-						{%- assign _tags = _tags | append: _tag_encode -%}
-					{%- else -%}
-						{%- assign _tags = _tags | append: _tag_encode | append: ',' -%}
-					{%- endif -%}
-				{%- endfor -%}
+			  {%- if _article.tags contains "개발일지" -%}
+				<div class="post-preview item" data-tags="개발일지">
+				  <a href="{{ _article.url | prepend: site.baseurl }}">
+					<span class="post-date">
+					  {{ _article.date | date: "%Y-%m-%d" }}
+					</span>
+					<span class="post-title">
+					  {{ _article.title }}
+					</span>
 
-			{% comment %} group by year {% endcomment %}
-			
-			
-			{% for _article in site.posts %}
-			{% if _tags == "%EA%B0%9C%EB%B0%9C%EC%9D%BC%EC%A7%80" %}
-			<div class="post-preview item" data-tags="{{ _tags }}">
-			<a href="{{ _article.url | prepend: site.baseurl }}">
-			<span class="post-date">
-			  {{ _article.date | date: "%Y-%m-%d" }}
-			</span>
-			<span class="post-title">
-			  {{ _article.title }}
-			</span>
-			</a>
+					{% if _article.subtitle %}
+					  <span class="post-subtitle">
+						{{ _article.subtitle }}
+					  </span>
+					{% endif %}
+				  </a>
+				  <hr>
+				</div>
+			  {%- endif -%}
+			{%- endfor -%}
 			</div>
-			{% endif %}
-			{% endfor %}
-			</div>
+
 		</div>
 	</div>
 </div>
