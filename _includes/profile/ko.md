@@ -383,8 +383,7 @@ a.icon-linkedin{
 							<div class="timeline-marker"></div>
 							<div class="timeline-content" style="font-size:1.5rem;">
 								<h4 class="timeline-title">Web Application Developer<br/><span class="timeline-company" style="font-weight:400;">Webchon</span></h4>
-								<p>- 공통 구조 기반 홈페이지 솔루션 빌더 개발</p>
-								<p>- 사내 백오피스 개발/구축을 통한 운영 상태 관리 및 효율성 개선</p>
+								<p>- 공통 구조 기반 홈페이지 빌더/백오피스 개발</p>
 							</div>
 						</li>
 						<li class="timeline-item">
@@ -520,8 +519,7 @@ a.icon-linkedin{
 							<div class="timeline-marker"></div>
 							<div class="timeline-content" style="font-size:1.5rem;">
 								<h4 class="timeline-title">Web Application Developer<br/><span class="timeline-company" style="font-weight:400;">Webchon</span></h4>
-								<p>- 공통 구조 기반 홈페이지 솔루션 빌더 개발</p>
-								<p>- 백오피스 개발/구축을 통한 운영 효율성 개선</p>
+								<p>- 공통 구조 기반 홈페이지 빌더/백오피스 개발</p>
 							</div>
 						</li>
 						<li class="timeline-item">

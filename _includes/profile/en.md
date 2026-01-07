@@ -370,7 +370,7 @@ a.icon-linkedin{
 							<div class="timeline-marker"></div>
 							<div class="timeline-content" style="font-size:1.5rem;">
 								<h4 class="timeline-title">Web Application Developer<br/><span class="timeline-company" style="font-weight:400;">Webchon</span></h4>
-								<p>-Homepage solution builder development</p>
+								<p>-Homepage builder/back office development</p>
 							</div>
 						</li>
 						<li class="timeline-item">
