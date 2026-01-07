@@ -32,10 +32,19 @@ https://github.com/kitian616/jekyll-TeXt-theme
 			  {%- if _article.tags contains "개발일지" -%}
 				<div class="post-preview item" data-tags="개발일지">
 				  <a href="{{ _article.url | prepend: site.baseurl }}">
-				    {% assign days = "월,화,수,목,금,토,일" | split: "," %}
-					<span class="post-date" style="font-weight:bold;">
+				    <span class="post-date" style="font-weight:bold;">
 					  {{ _article.date | date: "%Y-%m-%d" }}
-					  ({{ days[_article.date | date: "%u" | minus: 1] }})
+					  (
+					  {% case _article.date | date: "%w" %}
+						{% when "0" %}일
+						{% when "1" %}월
+						{% when "2" %}화
+						{% when "3" %}수
+						{% when "4" %}목
+						{% when "5" %}금
+						{% when "6" %}토
+					  {% endcase %}
+					  )
 					</span>
 					<span class="post-title">
 					  {{ _article.title }}
