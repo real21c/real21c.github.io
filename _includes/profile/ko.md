@@ -383,7 +383,7 @@ a.icon-linkedin{
 							<div class="timeline-marker"></div>
 							<div class="timeline-content" style="font-size:1.5rem;">
 								<h4 class="timeline-title">Web Application Developer<br/><span class="timeline-company" style="font-weight:400;">Webchon</span></h4>
-								<p>- 멀티 테넌트 구조의 홈페이지 빌더 및 운영 백오피스 개발</p>
+								<p>- 멀티 테넌트 구조의 홈페이지 빌더 · 백오피스 개발</p>
 							</div>
 						</li>
 						<li class="timeline-item">
