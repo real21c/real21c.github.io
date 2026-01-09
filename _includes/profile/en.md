@@ -304,7 +304,7 @@ a.icon-linkedin{
 							<div class="timeline-marker"></div>
 							<div class="timeline-content" style="font-size:1.5rem;">
 								<h4 class="timeline-title">DevOps Engineer</h4>
-								<p>- Development of an FDS-based system anomaly detection monitoring solution (for in-house application)</p>
+								<p>- Development of an system anomaly detection monitoring solution (for in-house application)</p>
 							</div>
 						</li>
 					</ul>

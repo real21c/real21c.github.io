@@ -317,7 +317,7 @@ a.icon-linkedin{
 							<div class="timeline-marker"></div>
 							<div class="timeline-content" style="font-size:1.5rem;">
 								<h4 class="timeline-title">DevOps Engineer</h4>
-								<p>- FDS 기반 시스템 이상 탐지 모니터링 솔루션 개발 (사내 적용)</p>
+								<p>- 시스템 이상 탐지 모니터링 솔루션 개발 (사내 적용)</p>
 							</div>
 						</li>
 					</ul>
