@@ -308,7 +308,7 @@ a.icon-linkedin{
 							</div>
 						</li>
 					</ul>
-					<ul class="timeline desktop-only">
+					<ul class="timeline">
 						<li class="timeline-item period">
 							<div class="timeline-info"></div>
 							<div class="timeline-content" style="padding-top:0px;"><h2 class="timeline-title" style="line-height:0;">Past</h2></div>
@@ -400,6 +400,8 @@ a.icon-linkedin{
 							</div>
 						</li>
 					</ul>
+
+
 				</div>
 			</div>
 		</div>
