@@ -157,7 +157,7 @@ tags: [트레일러닝]
 |CP5|15:47:53|7h 47m 40s|Kei Ling Ha|52km / 2,120m+|
 |CP6|19:34:34|11h 34m 21s|Giwell Camp|65km / 2,970m+|
 |CP7|21:43:13|13h 43m|Beacon Hill|73km / 3,420m+|
-|CP8|00:02:39|16h 2m Shing Mun Dam| 83km / 4,120m+|
+|CP8|00:02:39|16h 2m|Shing Mun Dam| 83km / 4,120m+|
 |CP9|-|-|Lead Min Pass|90km / 4,270m+|
 |FINISH|-|-|Rotary Club Park|100km / 4,820m+|
 
