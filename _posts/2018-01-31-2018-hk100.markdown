@@ -155,11 +155,11 @@ tags: [트레일러닝]
 |CP3|12:33:47|4h 33m 34s|Hoi Ha|36km / 1,320m+|
 |CP4|14:06:13|6h 6m|Yung Shue O|45km / 1,570m+|
 |CP5|15:47:53|7h 47m 40s|Kei Ling Ha|52km / 2,120m+|
-|CP6|19:34:34:|11h 34m 21s|Kei Ling Ha|65km / 2,970m+|
-|CP7|21:43:13|13h 43m|Kei Ling Ha|73km / 3,420m+|
-|CP8|00:02:39|16h 2m 26s|Kei Ling Ha|83km / 4,120m+|
-|CP9|-|-|Kei Ling Ha|90km / 4,270m+|
-|FINISH|-|-|Kei Ling Ha|100km / 4,820m+|
+|CP6|19:34:34|11h 34m 21s|Giwell Camp|65km / 2,970m+|
+|CP7|21:43:13|13h 43m|Beacon Hill|73km / 3,420m+|
+|CP8|00:02:39|16h 2m Shing Mun Dam| 83km / 4,120m+|
+|CP9|-|-|Lead Min Pass|90km / 4,270m+|
+|FINISH|-|-|Rotary Club Park|100km / 4,820m+|
 
 ## 7. Thanks to.
 - ICN입국할 때, 문석이형/현숙누나가 바쁘심에도 마중 와주셔서 고생했다고 밥도 사주시고, 성현이형도 집에까지 데려다주었다. 깜짝 이벤트. 주변에서 너무나도 과분한 응원을 받고있는데, 앞으로 어떻게 보답을 해야할는지 나도 기회를 찾고 있다. 

@@ -459,7 +459,7 @@ a.icon-linkedin{
 							</div>
 						</li>
 					</ul>
-					<ul class="timeline desktop-only">
+					<ul class="timeline mobile-only">
 						<li class="timeline-item period">
 							<div class="timeline-info"></div>
 							<div class="timeline-content" style="padding-top:0px"><h2 class="timeline-title" style="line-height:0;">과거</h2></div>
