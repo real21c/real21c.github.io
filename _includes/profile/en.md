@@ -244,20 +244,24 @@ a.icon-linkedin{
 <article class="single-post">                
 	<section class="post-content">           
 		<div class="md-card no-border"><p>
-		I'm a developer with a deep interest in adding new value to my daily life and work.<br/>
-		I enjoy using IT technology to improve and solve inconvenient problems in everyday life.<br/>
-		You can find more information about my career and projects on my <a href="https://linkedin.com/in/real21c/" rel="me" itemprop="sameAs" class="icon-linkedin" target="_blank">LinkedIn</a> profile.</p></div>
-
-		<div class="author-info">
-			<div class="author-meta">
-				<span style="display:inline-flex; gap:1px;">
-					<svg width="24" height="24" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" fill="none">
-					<path fill="#0A66C2" d="M12.225 12.225h-1.778V9.44c0-.664-.012-1.519-.925-1.519-.926 0-1.068.724-1.068 1.47v2.834H6.676V6.498h1.707v.783h.024c.348-.594.996-.95 1.684-.925 1.802 0 2.135 1.185 2.135 2.728l-.001 3.14zM4.67 5.715a1.037 1.037 0 01-1.032-1.031c0-.566.466-1.032 1.032-1.032.566 0 1.031.466 1.032 1.032 0 .566-.466 1.032-1.032 1.032zm.889 6.51h-1.78V6.498h1.78v5.727zM13.11 2H2.885A.88.88 0 002 2.866v10.268a.88.88 0 00.885.866h10.226a.882.882 0 00.889-.866V2.865a.88.88 0 00-.889-.864z"/>
-					</svg>
-					<span><a href="https://linkedin.com/in/real21c/" rel="me" itemprop="sameAs" class="icon-linkedin" target="_blank">LinkedIn</a> </span>
-				</span>				
-			</div>                                  
-		</div>
+		Hello.<br/>
+		I'm constantly striving to solve daily and work-related problems with IT technology and become a better developer.<br/>
+		You can find details about my projects and awards on my <a href="https://linkedin.com/in/real21c/"
+		   target="_blank"
+		   rel="me"
+		   itemprop="sameAs"
+		   aria-label="LinkedIn"
+		   style="display:inline-flex; align-items:center; gap:4px; vertical-align:middle; text-decoration:none;">
+			<svg width="24" height="24"
+			     viewBox="0 0 16 16"
+			     xmlns="http://www.w3.org/2000/svg"
+			     style="display:block;">
+				<path fill="#0A66C2"
+				      d="M12.225 12.225h-1.778V9.44c0-.664-.012-1.519-.925-1.519-.926 0-1.068.724-1.068 1.47v2.834H6.676V6.498h1.707v.783h.024c.348-.594.996-.95 1.684-.925 1.802 0 2.135 1.185 2.135 2.728l-.001 3.14zM4.67 5.715a1.037 1.037 0 01-1.032-1.031c0-.566.466-1.032 1.032-1.032.566 0 1.031.466 1.032 1.032 0 .566-.466 1.032-1.032 1.032zm.889 6.51h-1.78V6.498h1.78v5.727zM13.11 2H2.885A.88.88 0 002 2.866v10.268a.88.88 0 00.885.866h10.226a.882.882 0 00.889-.866V2.865a.88.88 0 00-.889-.864z"/>
+			</svg>
+			LinkedIn
+		</a> profile.<br/>
+		Thank you.</p></div>
 
 		<div class="timeline-container" style="padding: 0 0; margin-top:0;">
 			<div class="container-fluid">
@@ -265,8 +269,7 @@ a.icon-linkedin{
 					<ul class="timeline">
 						<li class="timeline-item period">
 							<div class="timeline-info"></div>
-							<div class="timeline-marker"></div>
-							<div class="timeline-content"><h2 class="timeline-title">Present</h2></div>
+							<div class="timeline-content" style="padding-top:0px;"><h2 class="timeline-title" style="line-height:0;">Present</h2></div>
 						</li>
 						<li class="timeline-item">
 							<div class="timeline-info">
@@ -301,15 +304,14 @@ a.icon-linkedin{
 							<div class="timeline-marker"></div>
 							<div class="timeline-content" style="font-size:1.5rem;">
 								<h4 class="timeline-title">DevOps Engineer</h4>
-								<p>- Development of an FDS-based system anomaly detection monitoring solution (for in-house application)</p>
+								<p>- Development of an system anomaly detection monitoring solution (for in-house application)</p>
 							</div>
 						</li>
+					</ul>
+					<ul class="timeline">
 						<li class="timeline-item period">
 							<div class="timeline-info"></div>
-							<div class="timeline-marker"></div>
-							<div class="timeline-content">
-							<h2 class="timeline-title">Past</h2>
-							</div>
+							<div class="timeline-content" style="padding-top:0px;"><h2 class="timeline-title" style="line-height:0;">Past</h2></div>
 						</li>
 						<li class="timeline-item">
 							<div class="timeline-info">
@@ -368,7 +370,7 @@ a.icon-linkedin{
 							<div class="timeline-marker"></div>
 							<div class="timeline-content" style="font-size:1.5rem;">
 								<h4 class="timeline-title">Web Application Developer<br/><span class="timeline-company" style="font-weight:400;">Webchon</span></h4>
-								<p>-Homepage solution builder development</p>
+								<p>-- Development of a multi-tenant website builder and back office.</p>
 							</div>
 						</li>
 						<li class="timeline-item">
@@ -392,15 +394,14 @@ a.icon-linkedin{
 							<div class="timeline-marker"></div>
 							<div class="timeline-content" style="font-size:1.5rem;">
 								<h4 class="timeline-title">Web Application Developer<br/><span class="timeline-company" style="font-weight:400;">DOM Co., Ltd.</span></h4>
-								<p>- Development of an in-house community web service (intranet, electronic payment)</p>
-								<p>- Development of a business support system that contributes to improving in-house productivity (ERP, BOM, mold status board)</p>
-								<p>- Development of an in-house business automation and information sharing system (workflow engine, knowledge management)</p>
+								<p>- Designed and developed an electronic approval web service and internal community platform</p>
+								<p>- Led the full lifecycle (planning, design, development, and operation) of an ERP-based integrated resource management system for manufacturing</p>
+								<p>- Designed and developed a knowledge-sharing system and workflow engine</p>
 							</div>
 						</li>
-						<li class="timeline-item">
-						&nbsp;
-						</li>
 					</ul>
+
+
 				</div>
 			</div>
 		</div>

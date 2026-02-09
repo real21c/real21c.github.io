@@ -26,59 +26,55 @@ https://github.com/kitian616/jekyll-TeXt-theme
 			</div>
             <!-- Article List -->
 			<div class="mini-post-list js-result">
-<section style="background-color: #5e97ad;color: #fff;">
-	<div class="post-preview item" data-tags="%ED%8A%B8%EB%A0%88%EC%9D%BC%EB%9F%AC%EB%8B%9D" style="padding-top: 1px;padding-bottom: 1px;margin-left: 0px;padding-left: 20px;border-bottom: 1px solid #ccc;">
-		<a href="https://itra.run/RunnerSpace/KIM.Dongmin/1198649" target="_blank" style="color: #fff;"><h2 class="post-title">📈️ Dongmin KIM's ITRA</h2></a>
-	</div>
-	<div class="post-preview item" data-tags="%ED%8A%B8%EB%A0%88%EC%9D%BC%EB%9F%AC%EB%8B%9D" style="padding-top: 1px;padding-bottom: 1px;margin-left: 0px;padding-left: 20px;margin-bottom: 20px;">
-		<a href="https://real21c.notion.site/94054a1cf17f42d5a1a6573e7f166f62" target="_blank" style="color: #fff;"><h2 class="post-title">ℹ️ 운동팁 / 메모</h2></a>
-	</div>
-</section>
+				<section style="background-color: #5e97ad;color: #fff;">
+					<div class="post-preview item" data-tags="%ED%8A%B8%EB%A0%88%EC%9D%BC%EB%9F%AC%EB%8B%9D" style="padding-top: 1px;padding-bottom: 1px;margin-left: 0px;padding-left: 20px;border-bottom: 1px solid #ccc;">
+						<a href="https://itra.run/RunnerSpace/KIM.Dongmin/1198649" target="_blank" style="color: #fff;"><h2 class="post-title">📈️ Dongmin KIM's ITRA</h2></a>
+					</div>
+					<div class="post-preview item" data-tags="%ED%8A%B8%EB%A0%88%EC%9D%BC%EB%9F%AC%EB%8B%9D" style="padding-top: 1px;padding-bottom: 1px;margin-left: 0px;padding-left: 20px;margin-bottom: 20px;">
+						<a href="https://real21c.notion.site/94054a1cf17f42d5a1a6573e7f166f62" target="_blank" style="color: #fff;"><h2 class="post-title">ℹ️ 운동팁 / 메모</h2></a>
+					</div>
+				</section>
 
-
-			{%- assign _sorted_list = site.posts -%}
-			{%- assign _sorted_list = _sorted_list | sort: 'date' -%}
-			{%- assign _sorted_list = _sorted_list | reverse -%}
-
+			{%- assign _sorted_list = site.posts | sort: 'date' | reverse -%}
 
 			{%- for _article in _sorted_list -%}
-				{%- assign _tags = '' -%}
-				{%- for _tag in _article.tags -%}
-					{%- assign _tag_encode = _tag | strip | url_encode -%}
-					{%- if forloop.last -%}
-						{%- assign _tags = _tags | append: _tag_encode -%}
-					{%- else -%}
-						{%- assign _tags = _tags | append: _tag_encode | append: ',' -%}
-					{%- endif -%}
-				{%- endfor -%}
+			  {%- if _article.tags contains "트레일러닝" -%}
+				<div class="post-preview item" data-tags="트레일러닝">
+				  <a href="{{ _article.url | prepend: site.baseurl }}">
+					{% assign dow = _article.date | date: "%a" %}
+					<span class="post-date" style="font-weight:bold;
+					{% if dow == 'Sat' %}
+					  color: blue;
+					{% elsif dow == 'Sun' %}
+					  color: red;
+					{% endif %}
+					">
+					  {{ _article.date | date: "%Y-%m-%d" }}
+					  ({{
+						dow
+						| replace: "Mon", "월"
+						| replace: "Tue", "화"
+						| replace: "Wed", "수"
+						| replace: "Thu", "목"
+						| replace: "Fri", "금"
+						| replace: "Sat", "토"
+						| replace: "Sun", "일"
+					  }})
+					</span>
+					<span class="post-title">
+					  {{ _article.title }}
+					</span>
 
-			{% comment %} group by year {% endcomment %}
-			{%- assign _currentdate = _article.date | date: '%Y' -%}
-			{%- if _currentdate != _date -%}
-				{%- unless forloop.first -%}</section>{%- endunless -%}
-				<section>
-				<span class="fa listing-seperator">
-					<span class="tag-text">{{ _currentdate }}</span>
-				</span>
-				{%- assign _date = _currentdate -%}
-			{%- endif -%}
-				{% if _tags == "%ED%8A%B8%EB%A0%88%EC%9D%BC%EB%9F%AC%EB%8B%9D" %}
-				<div class="post-preview item" data-tags="{{ _tags }}">
-				    <a href="{{ _article.url | prepend: site.baseurl }}">
-				        <h2 class="post-title">
-                            {{ _article.title }}
-				        </h2>
-				        {% if _article.subtitle %}
-				        <h3 class="post-subtitle">
-				            {{ _article.subtitle }}
-				        </h3>
-				        {% endif %}
-				    </a>
-					<hr>
+					{% if _article.subtitle %}
+					  <span class="post-subtitle">
+						{{ _article.subtitle }}
+					  </span>
+					{% endif %}
+				  </a>
+				  <hr>
 				</div>
-				{% endif %}
-			{%- if forloop.last -%}</section>{%- endif -%}
-			{% endfor %}
+			  {%- endif -%}
+			{%- endfor -%}
 			</div>
 		</div>
 	</div>

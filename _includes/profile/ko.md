@@ -217,22 +217,9 @@ color:#aaa;
 	line-height:initial;
 }
 
-.author-info {
-    margin: 20px auto 40px;
-}
 
 .author-title {
     font-size: 4rem;
-}
-
-.author-meta {
-    color: #9EABB3;
-    font-size: 1.6rem;
-}
-
-.author-meta a {
-    margin-top: 10px;
-    color: #9EABB3;
 }
 
 a.icon-linkedin{
@@ -243,29 +230,51 @@ a.icon-linkedin{
 <div class="profile">
 <article class="single-post">                
 	<section class="post-content">           
-		<div class="md-card no-border desktop-only"><p>
-		일상과 업무에 새로운 가치를 더하는 데 깊은 관심을 가지고 있으며,<br/>
-		생활 속 불편한 문제를 IT 기술로 개선하고 해결하는 것을 즐기는 개발자입니다.<br/>
-		자세한 경력과 프로젝트는 <a href="https://linkedin.com/in/real21c/" rel="me" itemprop="sameAs" class="icon-linkedin" target="_blank">LinkedIn</a> 프로필에서 확인하실 수 있습니다.</p></div>
+		<div class="md-card no-border desktop-only"><p style="margin-bottom:0px;">
+		안녕하세요.<br/>
+		일상과 업무의 문제를 IT 기술로 해결하고, 더 나은 개발자가 되기 위해 꾸준히 고민하고 있습니다.<br/>
+		프로젝트 및 수상 경력의 상세 내용은
+		<a href="https://linkedin.com/in/real21c/"
+		   target="_blank"
+		   rel="me"
+		   itemprop="sameAs"
+		   aria-label="LinkedIn"
+		   style="display:inline-flex; align-items:center; gap:4px; vertical-align:middle; text-decoration:none;">
+			<svg width="24" height="24"
+			     viewBox="0 0 16 16"
+			     xmlns="http://www.w3.org/2000/svg"
+			     style="display:block;">
+				<path fill="#0A66C2"
+				      d="M12.225 12.225h-1.778V9.44c0-.664-.012-1.519-.925-1.519-.926 0-1.068.724-1.068 1.47v2.834H6.676V6.498h1.707v.783h.024c.348-.594.996-.95 1.684-.925 1.802 0 2.135 1.185 2.135 2.728l-.001 3.14zM4.67 5.715a1.037 1.037 0 01-1.032-1.031c0-.566.466-1.032 1.032-1.032.566 0 1.031.466 1.032 1.032 0 .566-.466 1.032-1.032 1.032zm.889 6.51h-1.78V6.498h1.78v5.727zM13.11 2H2.885A.88.88 0 002 2.866v10.268a.88.88 0 00.885.866h10.226a.882.882 0 00.889-.866V2.865a.88.88 0 00-.889-.864z"/>
+			</svg>
+			LinkedIn
+		</a>
+		프로필 에서 확인하실 수 있습니다.<br/>
+		감사합니다.</p></div>
 
-		<div class="md-card no-border mobile-only"><p>
-		일상과 업무에 새로운 가치를 더하는 데
-		깊은 관심을 가지고 있으며,<br/>
-		생활 속 불편한 문제를 IT 기술로 개선하고 
-		해결하는 것을 즐기는 개발자입니다.<br/>
-		자세한 경력과 프로젝트는 <a href="https://linkedin.com/in/real21c/" rel="me" itemprop="sameAs" class="icon-linkedin" target="_blank">LinkedIn</a> 프로필에서 
-		확인하실 수 있습니다.</p></div>
+		<div class="md-card no-border mobile-only"><p style="margin-bottom:0px;">
+		안녕하세요.<br/>
+		일상과 업무의 문제를 IT 기술로 해결하고,<br/>
+		더 나은 개발자가 되기 위해 계속 고민하고 있습니다.<br/>
+		프로젝트 및 수상 경력의 상세 내용은<br/>
+		<a href="https://linkedin.com/in/real21c/"
+		   target="_blank"
+		   rel="me"
+		   itemprop="sameAs"
+		   aria-label="LinkedIn"
+		   style="display:inline-flex; align-items:center; gap:4px; vertical-align:middle; text-decoration:none;">
+			<svg width="24" height="24"
+			     viewBox="0 0 16 16"
+			     xmlns="http://www.w3.org/2000/svg"
+			     style="display:block;">
+				<path fill="#0A66C2"
+				      d="M12.225 12.225h-1.778V9.44c0-.664-.012-1.519-.925-1.519-.926 0-1.068.724-1.068 1.47v2.834H6.676V6.498h1.707v.783h.024c.348-.594.996-.95 1.684-.925 1.802 0 2.135 1.185 2.135 2.728l-.001 3.14zM4.67 5.715a1.037 1.037 0 01-1.032-1.031c0-.566.466-1.032 1.032-1.032.566 0 1.031.466 1.032 1.032 0 .566-.466 1.032-1.032 1.032zm.889 6.51h-1.78V6.498h1.78v5.727zM13.11 2H2.885A.88.88 0 002 2.866v10.268a.88.88 0 00.885.866h10.226a.882.882 0 00.889-.866V2.865a.88.88 0 00-.889-.864z"/>
+			</svg>
+			LinkedIn
+		</a>
+		프로필 에서 확인하실 수 있습니다.<br/>
+		감사합니다.</p></div>
 
-		<div class="author-info">
-			<div class="author-meta">
-				<span style="display:inline-flex; gap:1px;">
-					<svg width="24" height="24" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" fill="none">
-					<path fill="#0A66C2" d="M12.225 12.225h-1.778V9.44c0-.664-.012-1.519-.925-1.519-.926 0-1.068.724-1.068 1.47v2.834H6.676V6.498h1.707v.783h.024c.348-.594.996-.95 1.684-.925 1.802 0 2.135 1.185 2.135 2.728l-.001 3.14zM4.67 5.715a1.037 1.037 0 01-1.032-1.031c0-.566.466-1.032 1.032-1.032.566 0 1.031.466 1.032 1.032 0 .566-.466 1.032-1.032 1.032zm.889 6.51h-1.78V6.498h1.78v5.727zM13.11 2H2.885A.88.88 0 002 2.866v10.268a.88.88 0 00.885.866h10.226a.882.882 0 00.889-.866V2.865a.88.88 0 00-.889-.864z"/>
-					</svg>
-					<span><a href="https://linkedin.com/in/real21c/" rel="me" itemprop="sameAs" class="icon-linkedin" target="_blank">LinkedIn</a> </span>
-				</span>				
-			</div>                                  
-		</div>
 
 		<div class="timeline-container" style="padding: 0 0; margin-top:0;">
 			<div class="container-fluid">
@@ -273,8 +282,7 @@ a.icon-linkedin{
 					<ul class="timeline desktop-only">
 						<li class="timeline-item period">
 							<div class="timeline-info"></div>
-							<div class="timeline-marker"></div>
-							<div class="timeline-content"><h2 class="timeline-title">현재</h2></div>
+							<div class="timeline-content" style="padding-top:0px;"><h2 class="timeline-title" style="line-height:0;">현재</h2></div>
 						</li>
 						<li class="timeline-item">
 							<div class="timeline-info">
@@ -309,15 +317,14 @@ a.icon-linkedin{
 							<div class="timeline-marker"></div>
 							<div class="timeline-content" style="font-size:1.5rem;">
 								<h4 class="timeline-title">DevOps Engineer</h4>
-								<p>- FDS 기반 시스템 이상 탐지 모니터링 솔루션 개발 (사내 적용)</p>
+								<p>- 시스템 이상 탐지 모니터링 솔루션 개발 (사내 적용)</p>
 							</div>
 						</li>
+					</ul>
+					<ul class="timeline desktop-only">
 						<li class="timeline-item period">
 							<div class="timeline-info"></div>
-							<div class="timeline-marker"></div>
-							<div class="timeline-content">
-							<h2 class="timeline-title">과거</h2>
-							</div>
+							<div class="timeline-content" style="padding-top:0px;"><h2 class="timeline-title" style="line-height:0;">과거</h2></div>
 						</li>
 						<li class="timeline-item">
 							<div class="timeline-info">
@@ -376,7 +383,7 @@ a.icon-linkedin{
 							<div class="timeline-marker"></div>
 							<div class="timeline-content" style="font-size:1.5rem;">
 								<h4 class="timeline-title">Web Application Developer<br/><span class="timeline-company" style="font-weight:400;">Webchon</span></h4>
-								<p>-홈페이지 솔루션 빌더 개발</p>
+								<p>- 멀티 테넌트 구조의 홈페이지 빌더 · 백오피스 개발</p>
 							</div>
 						</li>
 						<li class="timeline-item">
@@ -400,13 +407,10 @@ a.icon-linkedin{
 							<div class="timeline-marker"></div>
 							<div class="timeline-content" style="font-size:1.5rem;">
 								<h4 class="timeline-title">Web Application Developer<br/><span class="timeline-company" style="font-weight:400;">(주)도움</span></h4>
-								<p>- 사내 커뮤니티 웹서비스 개발 (인트라넷, 전자결제)</p>
-								<p>- 사내 생산성 향상 기여 업무 지원 시스템 개발 (ERP, BOM, 금형현황판)</p>
-								<p>- 사내 업무 자동화 및 정보 공유 시스템 개발 (워크플로우 엔진, 지식관리)</p>
+								<p>- 전자결재 웹 서비스 및 사내 커뮤니티 설계·개발</p>
+								<p>- 제조업 ERP 기반 자원 통합 관리 시스템 기획·설계·개발·운영 전 과정 담당</p>
+								<p>- 지식 공유 시스템 및 워크플로우 엔진 설계·개발</p>
 							</div>
-						</li>
-						<li class="timeline-item">
-						&nbsp;
 						</li>
 					</ul>
 
@@ -416,8 +420,7 @@ a.icon-linkedin{
 					<ul class="timeline mobile-only">
 						<li class="timeline-item period">
 							<div class="timeline-info"></div>
-							<div class="timeline-marker"></div>
-							<div class="timeline-content"><h2 class="timeline-title">현재</h2></div>
+							<div class="timeline-content" style="padding-top:0px;"><h2 class="timeline-title" style="line-height:0;">현재</h2></div>
 						</li>
 						<li class="timeline-item">
 							<div class="timeline-info">
@@ -441,7 +444,7 @@ a.icon-linkedin{
 							<div class="timeline-marker"></div>
 							<div class="timeline-content" style="font-size:1.5rem;">
 								<h4 class="timeline-title">Mobile Developer (Android / iOS)</h4>
-								<p>- 150+ 고객사 모바일 앱 End-to-End 개발 및 운영</p>
+								<p>- 150+ 고객사 End-to-End 개발 및 운영</p>
 							</div>
 						</li>
 						<li class="timeline-item">
@@ -455,12 +458,11 @@ a.icon-linkedin{
 								<p>- 시스템 이상 탐지 모니터링 솔루션 개발</p>
 							</div>
 						</li>
+					</ul>
+					<ul class="timeline mobile-only">
 						<li class="timeline-item period">
 							<div class="timeline-info"></div>
-							<div class="timeline-marker"></div>
-							<div class="timeline-content">
-							<h2 class="timeline-title">과거</h2>
-							</div>
+							<div class="timeline-content" style="padding-top:0px"><h2 class="timeline-title" style="line-height:0;">과거</h2></div>
 						</li>
 						<li class="timeline-item">
 							<div class="timeline-info">
@@ -519,7 +521,7 @@ a.icon-linkedin{
 							<div class="timeline-marker"></div>
 							<div class="timeline-content" style="font-size:1.5rem;">
 								<h4 class="timeline-title">Web Application Developer<br/><span class="timeline-company" style="font-weight:400;">Webchon</span></h4>
-								<p>-홈페이지 솔루션 빌더 개발</p>
+								<p>- 멀티 테넌트 구조의 홈페이지 빌더/백오피스 개발</p>
 							</div>
 						</li>
 						<li class="timeline-item">
@@ -544,13 +546,10 @@ a.icon-linkedin{
 							<div class="timeline-marker"></div>
 							<div class="timeline-content" style="font-size:1.5rem;">
 								<h4 class="timeline-title">Web Application Developer<br/><span class="timeline-company" style="font-weight:400;">(주)도움</span></h4>
-								<p>- 사내 커뮤니티 웹서비스 개발</p>
-								<p>- 사내 생산성 향상 기여 업무 지원 시스템 개발</p>
-								<p>- 사내 업무 자동화 및 정보 공유 시스템 개발</p>
+								<p>- 전자결재 웹 서비스 및 사내 커뮤니티 설계·개발</p>
+								<p>- ERP 시스템 기획·설계·개발·운영 전 과정 담당</p>
+								<p>- 지식 공유 시스템 및 워크플로우 엔진 설계·개발</p>
 							</div>
-						</li>
-						<li class="timeline-item">
-						&nbsp;
 						</li>
 					</ul>
 
